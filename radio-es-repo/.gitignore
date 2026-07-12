@@ -1,0 +1,23 @@
+# Dependencias y builds
+node_modules/
+web/dist/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Entornos y secretos
+.env
+.env.local
+
+# Temporales
+*.tmp
+*.bak
