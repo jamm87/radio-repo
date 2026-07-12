@@ -1,5 +1,11 @@
 # Registro de cambios
 
+## v2.2 — Portal Radio España + tema claro/oscuro
+
+- Reestructurado como monorepo del portal **Radio España**: `content/curso/` (temario HAREC adaptado de eaharec.com, MIT), `data/` (fuente de verdad), `site/` (web), `tools/` y `docs/`; workflows movidos a la raíz para que GitHub Actions los ejecute.
+- Rediseño del sitio: sistema de **tokens de tema con modo claro y oscuro** (sigue `prefers-color-scheme`, conmutador `◐` persistente en localStorage, sin parpadeo al cargar), sombras y paleta tipo editor de código en claro, tiles del mapa acordes al tema, enlace al curso HAREC en la navegación.
+- Licencia unificada: MIT con atribuciones (curso de eaharec.com; datos de fuentes públicas).
+
 ## v2.1 — Consolidación documental
 
 - Añadido el **plan de bandas de radioaficionado** (CNAF/IARU) como documento Markdown, con sección de referencia rápida y sección extendida (atribución, potencias, notas del Reglamento y CNAF por banda).

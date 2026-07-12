@@ -6,18 +6,21 @@ El contenido se edita en una base de datos de **Notion** (que actúa como CRM) y
 
 ---
 
-## Estructura del repositorio
+> **Nota:** RADIO://es forma parte del monorepo del portal **Radio España**
+> ([README de la raíz](../README.md)), junto al curso HAREC (`content/curso/`).
+
+## Estructura (dentro del monorepo)
 
 ```
-radio-es/
-├── web/                         # Sitio web desplegable (GitHub Pages)
+radio-repo/
+├── site/                        # Sitio web desplegable (GitHub Pages)
 │   ├── src/template.html        # Plantilla; el build inyecta los datos
-│   ├── data/frequencies.json    # Datos que alimentan la web
 │   ├── scripts/                 # build.js, sync-notion.js, serve.js
-│   ├── .github/workflows/       # Despliegue y sync automáticos
+│   ├── public/                  # favicon, CNAME opcional
 │   └── package.json
 │
-├── data/                        # Conjuntos de datos completos
+├── data/                        # Conjuntos de datos (fuente de verdad)
+│   ├── frequencies.json         # Datos que alimentan la web
 │   ├── frecuencias_consolidado.json    # 1.690 frecuencias, todas las fuentes
 │   └── repetidores_balizas_ure.json    # 285 repetidores y balizas de la URE
 │
@@ -25,28 +28,30 @@ radio-es/
 │   ├── frecuencias_radio_es.xlsx       # Hoja de cálculo maestra
 │   └── plan_bandas_radioaficionado_ES.md   # Plan de bandas (CNAF/IARU)
 │
-└── scripts/                     # Utilidades de extracción/generación
-    ├── parse_ure.py             # Parser de PDFs de repetidores URE
-    └── gen_excel.py             # Generador del Excel maestro
+├── tools/                       # Utilidades de extracción/generación
+│   ├── parse_ure.py             # Parser de PDFs de repetidores URE
+│   └── gen_excel.py             # Generador del Excel maestro
+│
+└── .github/workflows/           # Despliegue y sync automáticos
 ```
 
 ---
 
 ## Componentes
 
-### 1. Web (`web/`)
+### 1. Web (`site/`)
 
-Sitio estático en HTML/CSS/JS puro, sin framework. Incluye buscador, filtros (categoría, banda, zona, modo, estado), mapa Leaflet opcional y **generador de memorias CHIRP** (con presets de banda aérea, radioafición, PMR446 y marítimo). Estética monospace tipo pantalla de escáner.
+Sitio estático en HTML/CSS/JS puro, sin framework. Incluye buscador, filtros (categoría, banda, zona, modo, estado), mapa Leaflet opcional y **generador de memorias CHIRP** (con presets de banda aérea, radioafición, PMR446 y marítimo). Estética monospace tipo pantalla de escáner, con tema claro/oscuro.
 
 ```bash
-cd web
-npm run build     # genera web/dist/
+cd site
+npm run build     # genera site/dist/
 npm run dev       # build + servidor en http://localhost:4173
 ```
 
-No requiere dependencias externas (Node 18+ nativo). Para desplegar: subir a un repo, activar **Settings → Pages → Source: GitHub Actions**. Cada push a `main` reconstruye y publica.
+No requiere dependencias externas (Node 18+ nativo). Para desplegar: activar **Settings → Pages → Source: GitHub Actions**. Cada push a `main` reconstruye y publica.
 
-Ver `web/README.md` para el detalle de despliegue y sincronización con Notion.
+Ver `site/README.md` para el detalle de despliegue y sincronización con Notion.
 
 ### 2. Datos (`data/`)
 
@@ -61,7 +66,7 @@ Ver `web/README.md` para el detalle de despliegue y sincronización con Notion.
   - *Resumen*: totales por publicabilidad, fuente y categoría, más la nota metodológica.
 - **`plan_bandas_radioaficionado_ES.md`** — Plan de bandas de radioaficionado (CNAF/IARU), con una parte de referencia rápida (tablas) y otra extendida (atribución, potencias, notas del Reglamento y CNAF, banda por banda).
 
-### 4. Scripts (`scripts/`)
+### 4. Scripts (`tools/`)
 
 Utilidades de reproducibilidad para regenerar los datos a partir de las fuentes originales:
 - **`parse_ure.py`** — extrae repetidores y balizas de los PDF/HTML de la URE.
