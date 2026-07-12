@@ -24,7 +24,7 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATA_SOURCE_ID: b709a140-dd16-4ae8-b892-eb0d5e1ed159
-        run: node scripts/sync-notion.js
+        run: node site/scripts/sync-notion.js
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"

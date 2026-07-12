@@ -23,10 +23,11 @@ jobs:
         with:
           node-version: 20
       - name: Build
+        working-directory: site
         run: node scripts/build.js
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: site/dist
 
   deploy:
     needs: build

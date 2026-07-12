@@ -6,9 +6,11 @@ import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
+const repoRoot = join(root, "..");
 const dist = join(root, "dist");
 
-const data = readFileSync(join(root, "data", "frequencies.json"), "utf8");
+// Fuente de verdad de datos en la raíz del repo: data/frequencies.json
+const data = readFileSync(join(repoRoot, "data", "frequencies.json"), "utf8");
 JSON.parse(data); // valida
 const template = readFileSync(join(root, "src", "template.html"), "utf8");
 

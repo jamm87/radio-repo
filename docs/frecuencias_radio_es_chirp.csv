@@ -1,0 +1,1580 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DTCS Code,DTCS Polarity,Mode,TStep,Skip,Comment
+1,200,0.135700,,0.000000,,88.5,88.5,023,NN,CW,5.00,,"Radioaficionados | Madrid/Nacional | CW, QRSS y modos digitales de banda estr"
+2,137 kHz (2.200 m,0.137000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+3,Satélites Llamad,0.144000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía (a) EME
+4,"EME, MGM Centro ",0.144110,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía MGM
+5,Segmento alterna,0.144150,,0.000000,,88.5,88.5,023,NN,CW,5.00,,"Radioaficionados | Madrid/Nacional | Telegrafía, SSB, MGM"
+6,MS SSB sin cita ,0.144180,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía y SSB
+7,Llamada FSK441,0.144360,,0.000000,,88.5,88.5,023,NN,CW,5.00,,"Radioaficionados | Madrid/Nacional | Telegrafía, SSB, MGM"
+8,Balizas WSPR,0.144400,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía MGM
+9,Llamada SSTV Lla,0.144500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos (b)
+10,APRS DV – Pasare,0.144794,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | MGM (c) Comunicaciones digitales
+11,Entrada de repet,0.144975,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM/Voz digital (DV)
+12,Comunicaciones e,0.145194,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM/Voz digital (e)
+13,Pasarela de voz ,0.145206,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM/Voz digital (e)
+14,Salida de repeti,0.145575,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM/Voz digital
+15,Comunicaciones e,0.145794,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM/Voz digital (e)
+16,Todos los modos ,0.145806,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos (h)
+17,NDB Colmenar Vie,0.319000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Utilidad | Madrid / Sierra | Radiofaro no direccional (319 kHz, CW 'ECV'). Objetivo clasico de escucha de NDBs con SDR."
+18,NDB Sintra (STR),0.371000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Utilidad | Global | Radiofaro no direccional (371 kHz, CW 'STR'), Portugal. Recibible desde el oeste peninsular."
+19,NDB Getafe (GE),0.421000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Utilidad | Madrid / Sierra | Radiofaro no direccional (421 kHz, CW 'GE'). Area de Madrid. Escucha de NDBs con SDR."
+20,430.025 – 430.37,0.430000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+21,NAVTEX 490/518 k,0.430500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Utilidad | Global | Boletines de seguridad maritima (FEC). 518 internacional / 490 nacional. SDR + software NAVTEX.
+22,Rebote lunar,0.432000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía (g)
+23,432.050 Centro d,0.432025,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía (b) MGM
+24,432.200 Centro d,0.432100,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía SSB MGM
+25,Balizas en exclu,0.432400,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía MGM
+26,432.500 Frecuenc,0.432500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+27,Entrada repetido,0.433000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM Voz digital Repetidores
+28,433.400 SSTV (FM,0.433400,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM Voz digital (j)
+29,433.600 RTTY (AF,0.433600,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+30,434.450 – 434.54,0.434000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos y ATV (n)
+31,Salida repetidor,0.434594,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | ATV y FM (n)
+32,Satélites y ATV ,0.435000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Satélites y ATV (n)
+33,Todos los modos,0.438000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+34,200,0.472000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | CW
+35,475 kHz (630 m),0.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+36,200,0.475000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,"Radioaficionados | Madrid/Nacional | CW, modos digitales"
+37,Comunicaciones d,1.240000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+38,Salida repetidor,1.243000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | ATV ATV Digital
+39,Satélites,1.260000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Satélites
+40,Frecuencias RTTY,1.260000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Uso común | Nacional
+41,Entrada repetido,1.270000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+42,Incluye DATV,1.272000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | ATV
+43,Canales de 25 kH,1.290000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Radioaficionados | Madrid/Nacional | Entrada repetidores FM, voz digital"
+44,Entrada repetido,1.291000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+45,Rebote lunar Cen,1.296000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía MGM
+46,Centro actividad,1.296000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía SSB MGM
+47,Balizas en exclu,1.296000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+48,Canales de 25 kH,1.296000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Salida repetidores FM
+49,Canales símplex ,1.297000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM (c) Voz digital (d)
+50,Uso mixto analóg,1.298000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+51,Datos digitales ,1.299000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+52,FM o voz digital,1.299000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+53,Todos los modos,2.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+54,"2.320,000 – 2.32",2.320000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | CW
+55,"2.320,200 Centro",2.320000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | CW/SSB
+56,Balizas en exclu,2.320000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Balizas en exclusiva
+57,FM y voz digital,2.321000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | FM y voz digital Símplex y repetidores
+58,2.322 – 2.355 AT,2.322000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+59,Satélites,2.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Satélites
+60,EA,3.137000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+61,EA,4.738500,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+62,Gibraltar VOLMET,5.450000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronautica | Global | Meteo aeronautica HF (USB) para el Estrecho. Recibible con SDR HF.
+63,Shannon VOLMET (,5.505000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronautica | Global | Meteo aeronautica HF (USB). Tambien en 3.413 MHz. Recibible con SDR HF desde toda la peninsula.
+64,OPERACIONES IBER,5.529000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+65,COORDINACION AVI,5.595000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Marítima | Madrid/Nacional
+66,Subida de satéli,5.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+67,Bajada de satéli,5.668000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+68,MGM,5.670000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | MGM
+69,EA,5.698000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+70,ATV,5.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | ATV
+71,EA,5.702000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+72,Todos los modos,5.720000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+73,"5.760,200 Centro",5.760000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+74,Balizas solament,5.760000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Madrid/Nacional | Telegrafía MGM
+75,Todos los modos,5.761000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+76,Todos los modos,5.790000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional | Todos los modos
+77,EA,6.715000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+78,S.A.R,6.720000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+79,EA,6.730000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+80,EA,6.737000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+81,Banda 40m SSB (l,7.090000,,0.000000,,88.5,88.5,023,NN,LSB,5.00,,"Radioaficionados | Nacional | Fonia LSB en 40 m, muy activa entre estaciones EA por la tarde/noche. Plan IARU R1."
+82,EA,7.696700,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+83,EA,7.697200,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+84,EA,7.727000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+85,EA,8.011800,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+86,EA,8.012200,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+87,Aviacion civil H,8.825000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronautica | Global | HF de aviacion civil en SSB para rutas transoceanicas fuera de cobertura VHF.
+88,CANARIAS,8.861000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+89,OPERACIONES IBER,8.936000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+90,EA,8.974000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+91,EA,9.014000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+92,EA,9.946500,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+93,OPERACIONES IBER,10.027000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+94,EA,11.016500,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+95,OPERACIONES SPAN,11.340000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+96,OPERACIONES IBER,11.345000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+97,EA,11.415500,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+98,EA,13.215000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+99,OPERACIONES IBER,13.327000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+100,EA,13.414500,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+101,FT8 20m (14.074),14.074000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Radioaficionados | Global | FT8 en 20 m, el modo digital mas popular. Decodificable con WSJT-X + SDR."
+102,Banda 20m SSB (D,14.200000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,"Radioaficionados | Global | Fonia USB en 20 m, banda reina de DX diurno. Contactos intercontinentales."
+103,EA,15.946500,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+104,MADRID RADIO,17.940000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+105,OPERACIONES IBER,17.967000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+106,EA,18.597500,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+107,OPERACIONES IBER,21.967000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+108,RADIO AFICIONADO,26.965000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+109,RADIO AFICIONADO,26.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+110,RADIO AFICIONADO,26.985000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+111,Banda Ciudadana ,27.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional
+112,RADIO AFICIONADO,27.005000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+113,Banda Ciudadana ,27.005000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Utilidad | Nacional | Banda ciudadana 26.965-27.405 MHz, 40 canales, hasta 5 W. Camioneros, agricultores, 4x4."
+114,RADIO AFICIONADO,27.015000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+115,RADIO AFICIONADO,27.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+116,RADIO AFICIONADO,27.035000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+117,RADIO AFICIONADO,27.055000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+118,RADIO AFICIONADO,27.065000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+119,RADIO AFICIONADO,27.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+120,RADIO AFICIONADO,27.085000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+121,RADIO AFICIONADO,27.105000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+122,RADIO AFICIONADO,27.115000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+123,RADIO AFICIONADO,27.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+124,RADIO AFICIONADO,27.135000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+125,RADIO AFICIONADO,27.155000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+126,RADIO AFICIONADO,27.165000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+127,RADIO AFICIONADO,27.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+128,RADIO AFICIONADO,27.185000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+129,Banda Ciudadana ,27.185000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Utilidad | Nacional | Canal 19: el de carretera por excelencia entre camioneros en Espana. AM.
+130,RADIO AFICIONADO,27.205000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+131,RADIO AFICIONADO,27.215000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+132,RADIO AFICIONADO,27.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+133,RADIO AFICIONADO,27.235000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+134,RADIO AFICIONADO,27.245000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+135,RADIO AFICIONADO,27.255000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+136,RADIO AFICIONADO,27.265000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+137,RADIO AFICIONADO,27.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+138,RADIO AFICIONADO,27.285000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+139,RADIO AFICIONADO,27.295000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+140,RADIO AFICIONADO,27.305000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+141,RADIO AFICIONADO,27.315000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+142,RADIO AFICIONADO,27.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+143,RADIO AFICIONADO,27.335000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+144,RADIO AFICIONADO,27.345000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+145,RADIO AFICIONADO,27.355000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+146,RADIO AFICIONADO,27.365000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+147,RADIO AFICIONADO,27.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+148,RADIO AFICIONADO,27.385000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+149,RADIO AFICIONADO,27.395000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+150,RADIO AFICIONADO,27.405000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+151,TELEFONOS INALAM,30.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+152,TELEFONOS INALAM,30.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+153,TELEFONOS INALAM,30.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+154,TELEFONOS INALAM,30.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+155,TELEFONOS INALAM,30.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+156,TELEFONOS INALAM,30.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+157,TELEFONOS INALAM,31.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+158,TELEFONOS INALAM,31.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+159,TELEFONOS INALAM,31.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+160,TELEFONOS INALAM,31.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+161,TELEFONOS INALAM,31.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+162,TELEFONOS INALAM,31.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+163,TELEFONOS INALAM,31.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+164,TELEFONOS INALAM,31.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+165,TELEFONOS INALAM,31.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+166,TELEFONOS INALAM,31.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+167,TELEFONOS INALAM,31.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+168,TELEFONOS INALAM,31.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+169,TELEFONOS INALAM,31.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+170,TELEFONOS INALAM,39.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+171,TELEFONOS INALAM,39.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+172,TELEFONOS INALAM,39.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+173,TELEFONOS INALAM,40.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+174,TELEFONOS INALAM,40.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+175,TELEFONOS INALAM,40.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+176,TELEFONOS INALAM,40.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+177,TELEFONOS INALAM,40.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+178,TELEFONOS INALAM,40.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+179,TELEFONOS INALAM,40.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+180,TELEFONOS INALAM,40.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+181,TELEFONOS INALAM,40.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+182,TELEFONOS INALAM,40.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+183,TELEFONOS INALAM,43.720000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+184,TELEFONOS INALAM,43.740000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+185,TELEFONOS INALAM,43.820000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+186,TELEFONOS INALAM,43.840000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+187,TELEFONOS INALAM,43.920000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+188,TELEFONOS INALAM,43.960000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+189,TELEFONOS INALAM,44.120000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+190,TELEFONOS INALAM,44.160000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+191,TELEFONOS INALAM,44.180000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+192,TELEFONOS INALAM,44.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+193,TELEFONOS INALAM,44.320000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+194,TELEFONOS INALAM,44.360000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+195,TELEFONOS INALAM,44.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+196,TELEFONOS INALAM,44.460000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+197,TELEFONOS INALAM,44.480000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+198,TELEFONOS INALAM,46.610000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+199,TELEFONOS INALAM,46.630000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+200,TELEFONOS INALAM,46.670000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+201,TELEFONOS INALAM,46.710000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+202,TELEFONOS INALAM,46.730000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+203,TELEFONOS INALAM,46.770000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+204,TELEFONOS INALAM,46.830000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+205,TELEFONOS INALAM,46.870000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+206,TELEFONOS INALAM,46.930000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+207,TELEFONOS INALAM,46.970000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+208,TELEFONOS INALAM,48.760000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+209,TELEFONOS INALAM,48.840000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+210,TELEFONOS INALAM,48.860000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+211,TELEFONOS INALAM,48.920000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+212,TELEFONOS INALAM,49.020000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+213,TELEFONOS INALAM,49.080000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+214,TELEFONOS INALAM,49.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+215,TELEFONOS INALAM,49.160000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+216,TELEFONOS INALAM,49.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+217,TELEFONOS INALAM,49.240000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+218,TELEFONOS INALAM,49.280000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+219,TELEFONOS INALAM,49.360000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+220,TELEFONOS INALAM,49.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+221,TELEFONOS INALAM,49.460000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+222,TELEFONOS INALAM,49.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+223,TELEFONOS INALAM,49.670000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+224,TELEFONOS INALAM,49.770000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+225,TELEFONOS INALAM,49.830000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+226,TELEFONOS INALAM,49.845000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+227,TELEFONOS INALAM,49.860000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+228,TELEFONOS INALAM,49.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+229,TELEFONOS INALAM,49.890000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+230,TELEFONOS INALAM,49.930000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+231,TELEFONOS INALAM,49.970000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+232,TELEFONOS INALAM,49.990000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+233,Usada por radioa,52.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional
+234,GRUAS,70.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+235,AG. MEDIO AMBIEN,76.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+236,EL CORTE INGLES,79.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+237,GRUA,84.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+238,FM: Banda para r,87.500000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Uso común | Nacional
+239,VOR: Navegación ,108.000000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Aeronáutica | Nacional
+240,VOR Madrid (refe,108.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Utilidad | Madrid / Sierra | Banda VOR 108-117.975 (radionavegacion). Emision continua. Fuera de portatiles de banda aerea; SDR.
+241,AYUDAS A LA NAVE,112.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+242,AYUDAS A LA NAVE,112.800000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+243,AYUDAS A LA NAVE,113.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+244,VOR Vigo (VGO),113.600000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Utilidad | Nacional | VOR/DME de Vigo (id VGO). Radionavegacion aerea, emision continua."
+245,AYUDAS A LA NAVE,114.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+246,AYUDAS A LA NAVE,115.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+247,AYUDAS A LA NAVE,117.300000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+248,SALIDAS BARAJAS ,118.075000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+249,LEMD TWR 36L/18R,118.075000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Torre pista 36L/18R. A distancia se recibe sobre todo el lado aire.
+250,Barcelona TWR (L,118.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre El Prat. APP 119.100/131.125, GMC 121.700, ATIS 118.650. Verificar en AIP AD2-LEBL."
+251,LLEGADAS BARAJAS,118.150000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+252,Malaga TWR (LEMG,118.150000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Costa del Sol. APP 118.450, GMC 121.700. ATIS: fuentes discrepan. Verificar en AIP AD2-LEMG."
+253,Cuatro Vientos T,118.225000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | PENDIENTE VERIFICAR en AIP AD2-LECU. Exhibiciones FIO (primer domingo de mes).
+254,INFORMACION VOLM,118.250000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+255,LEMD ATIS Llegad,118.255000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Transmision continua H24. Util como frecuencia patron para calibrar receptores. AIP AD2-LEMD.
+256,Gran Canaria TWR,118.300000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Gran Canaria. APP 124.300, ATIS 118.600, GMC 121.700. Verificar en AIP AD2-GCLP."
+257,A Coruna TWR (LE,118.300000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre A Coruna/Alvedro. GMC 121.700, VOR 115.1 (LRA). Verificar en AIP AD2-LECO."
+258,Palma TWR llegad,118.305000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre ARR Palma. DEP 118.455, GMC norte 121.905 / sur 121.705. Reverificar en AIP AD2-LEPA."
+259,Sevilla TWR DEP ,118.325000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Sevilla (salidas). APP 124.400, GMC 121.700. Verificar en AIP AD2-LEZL."
+260,Almeria TWR (LEA,118.350000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Almeria. ATIS 118.625, GMC 121.800. Verificar en AIP AD2-LEAM."
+261,SECTOR ESTE MADR,118.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+262,Madrid APP (nort,118.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Sector APP en cartas STAR configuracion norte.
+263,Malaga APP (LEMG,118.450000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Nacional | Aproximacion Costa del Sol (sector este 118.455). Verificar en AIP AD2-LEMG.
+264,Vigo TWR (LEVX),118.450000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Vigo/Peinador. APP 120.200, GMC 121.700, VOR 113.6 (VGO). Verificar en AIP AD2-LEVX."
+265,TWR BARAJAS MB,118.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+266,Ibiza TWR (LEIB),118.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Ibiza. APP 119.800, GMC 121.800. Verificar en AIP AD2-LEIB."
+267,Bilbao TWR (LEBB,118.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Bilbao/Sondika. APP 120.700, GMC 121.700. Verificar en AIP AD2-LEBB."
+268,ACC MADRID MB S,118.525000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+269,Valencia TWR (LE,118.550000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre Valencia. APP 120.100, GMC 121.700. Verificar en AIP AD2-LEVC."
+270,Valladolid TWR (,118.550000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Nacional | Torre Villanubla/Valladolid. Verificar en AIP AD2-LEVD.
+271,Barcelona ATIS (,118.650000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Nacional | ATIS El Prat. Transmision continua. Verificar en AIP AD2-LEBL.
+272,TWR CUATRO VIENT,118.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+273,Palma APP (LEPA),118.955000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Aproximacion Palma (APS). TAR 119.155, ATIS ARR 119.255 / DEP 121.780. Reverificar en AIP AD2-LEPA."
+274,LEMD TWR 32R/14L,118.975000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Torre pista 32R/14L.
+275,APP MB,119.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+276,Zaragoza APP (LE,119.300000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Nacional | Aproximacion Zaragoza (uso mixto civil-militar). TWR 122.100/118.100. Verificar en AIP AD2-LEZG.
+277,Menorca TWR/APP ,119.655000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Aeronautica | Nacional | Torre y aproximacion comparten 119.655. GMC 121.755, ATIS 129.155. Reverificar en AIP AD2-LEMH."
+278,ACC MADRID MB,119.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+279,APP MADRID MB,119.900000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+280,DESCARGAS/LOC BA,120.150000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+281,AVIONES AIRE-AIR,120.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+282,Vigo APP (LEVX),120.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Nacional | Aproximacion Vigo. Verificar en AIP AD2-LEVX.
+283,AVIONES MB,120.370000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+284,AVIONES AIRE-AIR,121.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+285,AVIONES AIRE-AIR,121.225000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+286,EMERG MB,121.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+287,Frecuencia de em,121.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Nacional
+288,Emergencia aeron,121.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,"Emergencia aerea | Global | Socorro VHF. Solo escucha: normalmente en silencio, se activa en emergencias y pruebas de ELT."
+289,VOLMET / info me,121.650000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Nacional | Informacion meteo aeronautica (verificar frecuencia/estacion activa en AIP/ENR en vigor).
+290,RODADURA SUR BAR,121.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+291,RODADURA GUIADA ,121.750000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+292,RODADURA CUATRO ,121.800000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+293,RODADURA NORTE B,121.850000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+294,INFORMACION VOLM,121.975000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+295,Leon TWR (LELN),122.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | El Bierzo / Leon | Torre Virgen del Camino/Leon (uso conjunto). NDB 330 (LEN). Verificar en AIP AD2-LELN.
+296,AVIONES AIRE-AIR,122.175000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+297,ARO CUATRO VIENT,122.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+298,AVIONES AIRE-AIR,122.900000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+299,ACC MADRID MB S,123.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+300,COLMENAR MB,123.225000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+301,HELICOPTERO DE T,123.425000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Medios/Broadcast | Madrid/Nacional
+302,INTER-PLANES MB,123.450000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+303,COLMENAR MB,123.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+304,INTER-PLANES MB,123.600000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+305,BARAJAS (MADRID ,124.025000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+306,AVIONES AIRE-AIR,124.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+307,ACC MADRID MB,125.750000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+308,VOLMET MB,126.000000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+309,VOLMET MB,126.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+310,VOLMET MB,126.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+311,VOLMET MB,126.800000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+312,VOLMET MB,126.900000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+313,VOLMET MB,127.000000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+314,SALIDAS (MADRID ,127.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+315,Madrid APP (inic,127.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Aproximacion inicial Madrid TMA. Buena recepcion desde puntos elevados de la sierra.
+316,BARAJAS (MADRID ,127.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+317,Madrid APP Final,127.505000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Director/final. Con paso de 25 kHz sintonizar 127.500: desplazamiento tolerable en AM.
+318,VOLMET MB,127.600000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+319,BARAJAS (MADRID ,128.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+320,Madrid APP,128.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Sector de aproximacion Madrid TMA. Verificada en cartas STAR/IAC del AIP.
+321,AVIONES AIRE-AIR,128.800000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+322,ACC MADRID MB S,128.825000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+323,CLR BARAJAS (LIB,130.075000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+324,LEMD ATIS Salida,130.850000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | ATIS de salidas segun fuentes comunitarias. Confirmar contra AIP AD2-LEMD.
+325,AVIONES AIRE-AIR,131.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+326,AVIONES AIRE-AIR,131.425000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+327,AVIONES AIRE-AIR,131.450000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+328,AVIACO MB,131.475000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+329,IBERIA MB S,131.500000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+330,AVIONES AIRE-AIR,131.525000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+331,IBERIA MB S,131.550000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+332,AVIONES MB,131.555000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+333,AVIONES AIRE-AIR,131.575000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+334,AVIONES AIRE-AIR,131.600000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+335,IBERIA MB,131.650000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+336,AVIONES AIRE-AIR,131.675000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+337,AVIONES AIRE-AIR,131.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+338,AVIONES AIRE-AIR,131.725000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+339,AVIONES AIRE-AIR,131.750000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+340,AVIONES AIRE-AIR,131.775000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+341,AVIONES AIRE-AIR,131.800000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+342,AVIONES AIRE-AIR,131.825000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+343,AIR FRANCE MB,131.850000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+344,AVIONES AIRE-AIR,131.875000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+345,AVIONES AIRE-AIR,131.900000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+346,LUFTHANSA MB,131.920000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+347,AVIONES AIRE-AIR,131.925000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+348,AVIONES AIRE-AIR,131.950000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+349,ACC MADRID (BILB,132.220000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+350,AVIONES AIRE-AIR,132.475000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+351,ACC MADRID (ZAMO,132.550000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+352,ACC MADRID MB,132.725000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+353,ACC MADRID MB,132.975000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+354,ACC MADRID MB,133.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+355,ACC MADRID MB S,133.325000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+356,ACC MADRID (INGL,133.750000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+357,Madrid Radar (LE,133.750000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Control de ruta Madrid ACC. Trafico en altura se recibe bien desde puntos elevados.
+358,ACC MADRID (CAST,133.850000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+359,ACC MADRID (ZARA,133.950000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+360,IBERIA MB,134.345000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+361,ACC MADRID (BILB,134.350000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+362,ACC MADRID (SANT,135.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+363,ACC MADRID (SANT,135.950000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+364,ACC MADRID MB,136.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+365,Madrid APP Oeste,136.105000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Madrid / Sierra | Frecuencia principal de salidas/APP oeste. En el limite superior de algunos portatiles.
+366,ACC MADRID MB,136.225000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+367,ACC MADRID MB,136.525000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+368,Satelites meteo ,137.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Utilidad | Global | 137.1 / 137.9 MHz. Perfecto para SDR. En Espana no hay NOAA Weather Radio: esto es lo mas parecido.
+369,Satelites NOAA A,137.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Utilidad | Global | NOAA polares (137-138 MHz). Imagenes APT en directo. RTL-SDR + V-dipolo/QFH + SatDump.
+370,R.K.R.,138.037000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+371,R.K.R.,138.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+372,R.K.R.,138.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+373,R.K.R.,138.087000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+374,R.K.R.,138.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+375,REALIZACION VUEL,139.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+376,REALIZACION VUEL,139.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+377,COMENTARISTAS VU,139.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+378,CADENA COPE,140.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+379,HELICOPTERO MB,140.875000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+380,HELICOPTERO MB,140.950000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+381,HELICOPTERO MB,140.952000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+382,REALIZACION VUEL,141.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+383,REALIZACION VUEL,141.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+384,COMENTARISTAS VU,141.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+385,COMENTARISTAS VU,141.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+386,Frecuencia de ra,142.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Uso común | Nacional
+387,SEGURIDAD ALMENA,143.065000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+388,Banda de 2 metro,144.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional
+389,APRS Europa,144.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | Paquetes AFSK 1200 bd. Decodificable con SDR + direwolf.
+390,R0 ENTRADA MB,145.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+391,R1 ENTRADA MB S,145.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+392,R2 ENTRADA,145.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+393,R3 ENTRADA,145.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+394,R4 ENTRADA,145.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+395,R5 ENTRADA,145.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+396,R6 ENTRADA,145.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+397,R7 ENTRADA MB,145.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+398,URE LOCAL (ALCOR,145.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+399,RADIO AFICIONADO,145.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+400,RADIO AFICIONADO,145.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+401,AMATER 2M MB,145.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+402,Llamada FM 2m,145.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | Llamada FM simplex 2 m (S20). Escaneo recomendado 145.200-145.5875.
+403,R0 SALIDA,145.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+404,Segmento salida ,145.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Radioaficionados | Madrid / Sierra | Escanear 145.600-145.7875 (salidas R0-R7, entrada -600 kHz). Repetidores concretos: URE."
+405,Repetidores El B,145.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | El Bierzo / Leon | Repetidores del Radio Club EA1RCU (Ponferrada). Verificar salidas y subtonos CTCSS.
+406,R1 SALIDA,145.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+407,R2 SALIDA MB,145.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+408,R3 SALIDA,145.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+409,R4 SALIDA,145.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+410,R5 SALIDA MB,145.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+411,Repetidor FM 2m ,145.737500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid / Sierra | Salida de repetidor R7 en 2m (entrada -600 kHz). Verificar indicativo y CTCSS en URE.
+412,R6 SALIDA,145.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+413,R7 SALIDA,145.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+414,Señal rusa desde,145.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Uso común | Nacional
+415,REMER,146.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+416,EMISORA DE TAXI ,146.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+417,RADIO AFICIONADO,146.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+418,EMISORA DE TAXI ,146.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+419,REMER,146.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+420,REMER C S,146.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+421,REMER (MADRID) M,146.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+422,REMER,146.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+423,EMISORA DE TAXI ,146.995000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+424,SEGURIDAD PRIVAD,148.135000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+425,RADIO AFICIONADO,148.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+426,BUSCAS (MENSATEL,148.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+427,REP. -1150,148.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+428,TAXI B S,149.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+429,TAXI B S,149.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+430,RADIO AFICIONADO,149.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+431,TAXI B,150.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+432,TAXI B S,150.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+433,TAXI C S,150.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+434,TAXI B S,150.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+435,TAXI MB S,150.580000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+436,CAMIONES,150.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+437,GRUAS GARCIA,151.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+438,TAXI B,151.676000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+439,M.O.P.,151.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+440,TRANSPORTES,151.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+441,PAQUETERIA,152.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+442,SEGURIDAD BURGO ,152.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+443,LIMPIEZA DEL AYU,152.485000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+444,BROÑIGAL C MB,153.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+445,TRANSPORTES C MB,153.520000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+446,COMENTARISTAS VU,153.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+447,AUTORES MB,154.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+448,R. TAXI,155.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+449,R. TAXI,155.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+450,R. TAXI MB S,155.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+451,R. TAXI,155.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+452,R. TAXI,155.615000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+453,VHF Marino: Incl,156.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Marítima | Nacional
+454,GRUA,156.265000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+455,Canales VHF mari,156.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Marítima | Nacional
+456,VHF Maritimo Can,156.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Maritima | Nacional | Comunicaciones de seguridad entre buques. Canal internacional.
+457,VHF Maritimo Can,156.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Maritima | Nacional | Llamada selectiva digital (DSC) del GMDSS. Rafagas de alerta de socorro. SDR.
+458,VHF Maritimo Can,156.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Maritima | Nacional | Seguridad de la navegacion buque-buque. Muy activo en zonas portuarias y estrechos.
+459,Canales VHF mari,156.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional
+460,Canal 16 maritim,156.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Maritima | Nacional | Socorro, urgencia y llamada maritima internacional. Recibible en costa y via WebSDR."
+461,R. TAXI,156.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+462,R. CADENA COPE,157.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+463,R.T.V.E.,157.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+464,TAXI,157.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+465,EL CORTE INGLES,158.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+466,TAXI DE MAJADAHO,158.920000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+467,TAXI MAJADAHONDA,158.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+468,WALKIES YAESU,159.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+469,A.D.A. GRUAS CIP,159.920000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+470,GRUAS FERNANDO,159.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+471,CONDUCTORES,160.460000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+472,TAXI (EMISORA PA,160.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+473,TOLEDO,160.840000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+474,SEGURIDAD PRIVAD,161.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+475,AVIONES AIRE-AIR,161.625000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+476,TAXI MB,161.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+477,AIS Canal A (161,161.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Maritima | Nacional | AIS-1: posicion y datos de buques. RTL-SDR + AISdecoder/OpenCPN. Muy popular en escucha costera.
+478,AIS Canal B (162,162.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Maritima | Nacional | AIS-2. Junto al canal A cubre todo el trafico maritimo. RTL-SDR + software AIS.
+479,TAXI (EMISORA PA,163.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+480,BASUREROS B,163.690000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+481,EMISORA PRIVADA ,164.685000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+482,TELETIPOS,165.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+483,TELETIPOS,165.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+484,SERVICIOS COORDI,165.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+485,R. TAXI,165.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+486,EMISORA PRIVADA ,166.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+487,EMISORA PRIVADA ,166.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+488,TAXI (ALCOBENDAS,170.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+489,"TAXI (GETAFE, ET",171.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+490,TAXI MB,171.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+491,TAXI B S,172.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+492,TAXI,172.810000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+493,TAXI MB,172.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+494,TAXI MB S,173.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+495,Microfonia inala,174.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Utilidad | Nacional | 5 canales VHF de uso comun para microfonos (UN-95): 174.1/174.3/175.5/176.3/179.3 MHz.
+496,TAXI,176.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+497,ENLACE DE TELEVI,180.790000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Medios/Broadcast | Madrid/Nacional
+498,APP MADRID MB,225.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+499,TAXI,230.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+500,TAXI B,230.240000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+501,TAXI MB,232.205000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+502,PUEDE SER EMITRA,232.240000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+503,TALLER O SIMILAR,232.680000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+504,EMERG MB S,243.000000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Otros/Sin identificar | Madrid/Nacional
+505,Guardia militar ,243.000000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronautica | Global | Socorro militar UHF (equivalente de 121.500). Estandar OTAN publico. Requiere RX 225-400 MHz.
+506,TAXI,316.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+507,Frecuencias NDB:,319.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Nacional
+508,TAXI,319.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+509,ILS: Comunicacio,328.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Nacional
+510,SEGURIDAD PRIVAD,335.787500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+511,SEGURIDAD PRIVAD,336.340000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+512,SEGURIDAD PRIVAD,337.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+513,SEGURIDAD PRIVAD,355.955000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+514,PUEDE SER ENLACE,392.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+515,PARTE METEREOLOG,403.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+516,TAXI MB S,406.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+517,TAXI ( LA MISMAQ,406.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+518,SEGURIDAD PRIVAD,407.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+519,TAXI ( LA MISMAQ,407.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+520,TAXI ( LA MISMAQ,407.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+521,EMISORA PRIVADA ,408.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+522,TAXI ( LA MISMAQ,409.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+523,LIMPIEZA AYUNTAM,414.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+524,LIMPIEZA AYUNTAM,414.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+525,SEGURIDAD PRIVAD,417.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+526,LIMPIEZA DEL AYU,423.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+527,LIMPIEZA DEL AYU,425.887500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+528,LIMPIEZA DEL AYU,426.437000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+529,LIMPIEZA DEL AYU,426.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+530,JARDINEROS AYUNT,427.412500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+531,LIMPIEZA DEL AYU,427.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+532,TAXI B S,427.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+533,TAXI MB S,428.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+534,PUEDEN SER TAXIS,429.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+535,TAXI MB,429.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+536,Banda de 70 cent,430.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional
+537,TAXI MB S,430.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+538,R70 ENTRADA,431.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+539,R71 ENTRADA,431.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+540,R72 ENTRADA,431.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+541,R73 ENTRADA,431.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+542,R74 ENTRADA,431.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+543,R75 ENTRADA,431.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+544,R76 ENTRADA,431.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+545,R77 ENTRADA,431.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+546,R78 ENTRADA,431.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+547,R79 ENTRADA,431.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+548,R80 ENTRADA,431.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+549,R81 ENTRADA,431.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+550,R82 ENTRADA,431.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+551,R83 ENTRADA,431.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+552,R84 ENTRADA C MB,431.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+553,R85 ENTRADA,431.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+554,R86 ENTRADA,431.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+555,R87 ENTRADA,431.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+556,R88 ENTRADA,431.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+557,R89 ENTRADA,431.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+558,R90 ENTRADA,431.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+559,R91 ENTRADA,431.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+560,R92 ENTRADA,431.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+561,R93 ENTRADA,431.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+562,R94 ENTRADA,431.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+563,R95 ENTRADA,431.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+564,R96 ENTRADA,431.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+565,R97 ENTRADA,431.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+566,R98 ENTRADA,431.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+567,R99 ENTRADA,431.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+568,R100 ENTRADA MB ,431.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+569,R101 ENTRADA,431.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+570,Llamada FM 70cm,433.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | Llamada FM simplex UHF. Salidas de repetidores en 438.600-439.9875 (entrada -7.6 MHz).
+571,SRD 433 MHz (tel,433.920000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Utilidad | Global | Mandos de garaje, sensores, estaciones meteo, timbres (ISM). Rafagas OOK/FSK con SDR + rtl_433."
+572,LPD433 (banda ce,434.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Utilidad | Nacional | SRD 433.075-434.775 MHz, 69 canales, 10 mW. Voz en 434.040-434.790. Estadios, ferias, zonas tecnicas."
+573,EMISORA PRIVADA ,437.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+574,ESTACIONES DE RA,438.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+575,R70 SALIDA,438.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+576,R71 SALIDA,438.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+577,R72 SALIDA,438.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+578,Repetidor FM 70c,438.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Radioaficionados | El Bierzo / Leon | Salida FM del RC EA1RCU (Ponferrada, entrada -7.6 MHz). Confirmar salida y subtono en URE."
+579,R73 SALIDA,438.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+580,R74 SALIDA,438.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+581,R75 SALIDA,438.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+582,R76 SALIDA,438.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+583,R77 SALIDA,438.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+584,R78 SALIDA,438.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+585,R79 SALIDA,438.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+586,R80 SALIDA,438.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+587,R81 SALIDA,438.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+588,R82 SALIDA MB,438.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+589,R83 SALIDA,438.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+590,R84 SALIDA,439.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+591,Repetidor DMR si,439.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid / Sierra | Segmento repetidores DMR 70cm (entrada -7.6 MHz). Callsign y color code en URE. SDR + DSD-FME.
+592,R85 SALIDA,439.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+593,R86 SALIDA,439.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+594,R87 SALIDA,439.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+595,R88 SALIDA,439.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+596,R89 SALIDA,439.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+597,R90 SALIDA,439.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+598,R91 SALIDA,439.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+599,R92 SALIDA,439.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+600,R93 SALIDA,439.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+601,R94 SALIDA,439.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+602,R95 SALIDA,439.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+603,R96 SALIDA,439.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+604,R97 SALIDA,439.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+605,R98 SALIDA,439.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+606,R99 SALIDA,439.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+607,R100 SALIDA MB,439.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+608,R101 SALIDA,439.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+609,CUBAS ( OBRAS) M,441.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+610,TAXI MB,445.312500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+611,PMR446: Uso libr,446.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Uso común | Nacional
+612,Canal DMR para e,446.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Uso común | Nacional
+613,"WALKIES, USO SIN",446.006200,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+614,PMR446 Canal 1,446.006250,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446 | Nacional | Canales 1-8 en pasos de 12.5 kHz. Uso libre; muy activo en senderismo los fines de semana.
+615,"WALKIES, USO SIN",446.018700,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+616,"WALKIES, USO SIN",446.031200,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+617,"WALKIES, USO SIN",446.043700,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+618,PMR446 Canal 4,446.043750,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446 | Nacional | Muy usado por personal de supermercados y almacenes. Uso comun (CNAF UN-110).
+619,"WALKIES, USO SIN",446.056200,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+620,PMR446 Canal 5,446.056250,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446 | Nacional | Frecuente en retail y grandes superficies. Uso comun libre (CNAF UN-110).
+621,"WALKIES, USO SIN",446.068700,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+622,"WALKIES, USO SIN",446.081200,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+623,"WALKIES, USO SIN",446.093700,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446/Uso libre | Madrid/Nacional
+624,PMR446 Canal 8,446.093750,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446 | Nacional | Popular como canal de montana/emergencia informal entre senderistas.
+625,PMR446 Digital C,446.118750,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,PMR446 | Nacional | Segmento digital 446.1-446.2 (DMR Tier I / dPMR). Seguridad auxiliar de eventos. SDR + DSD.
+626,SEGURIDAD PRIVAD,448.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+627,LIMPIEZA DEL AYU,448.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+628,MOTO TVE VUELTA ,452.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+629,TAXI B S,452.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+630,TAXI,453.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+631,TAXI LA MISMA QU,453.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+632,TAXI,453.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+633,TAXI,453.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+634,TAXI,453.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+635,EMISORA PRIVADA ,459.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+636,TAXI,459.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+637,ESTACIONES DE RA,459.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+638,SEGURIDAD PRIVAD,462.360000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+639,TAXI,462.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+640,TAXI MB S,462.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+641,LIMPIEZA DEL AYU,462.987500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+642,SEGURIDAD PRIVAD,463.062500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+643,TAXI ( LA MISMA ,463.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+644,TECMED (LIMPIEZA,463.537500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+645,TAXI MB,463.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+646,TAXI MB S,463.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+647,TAXI ( LA MISMA ,463.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+648,R.T.V.E.,465.765000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+649,TAXI MB S,468.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+650,TAXI,468.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+651,IBERIA,469.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+652,TAXI MB,469.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+653,UHF: Banda utili,470.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Broadcast | Nacional
+654,TAXI MB,474.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+655,TAXI ( LA MISMA ,474.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+656,T.V.E 2 B,476.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+657,SEGURIDAD PRIVAD,483.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+658,TAXI B,484.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+659,LIMPIEZA DEL AYU,484.387000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+660,T.V.E 2 B,484.762000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+661,TAXI B,484.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+662,TAXI MB,485.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+663,TAXI ( LA MISMA ,489.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+664,TAXI (LA MISMA Q,489.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+665,TAXI MB,491.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+666,TELE O RADIO REL,492.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Medios/Broadcast | Madrid/Nacional
+667,T.V.E 2 B,500.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+668,T.V.E 2 B,506.162000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+669,TELE LOCAL B,508.737000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Medios/Broadcast | Madrid/Nacional
+670,TAXI,522.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+671,AM: Emisoras de ,530.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Uso común | Nacional
+672,RADIO B,820.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+673,PMSE produccion ,827.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Utilidad | Nacional | Audio inalambrico de produccion profesional: platos de TV, conciertos, rodajes. UN-151 / UE 2014/641."
+674,ANTENA 3 B,828.762000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+675,RADIO B,831.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+676,TELE LOCAL MX B,839.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+677,TELE O RADIO B,843.212500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+678,TELE LOCAL MX B,860.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Medios/Broadcast | Madrid/Nacional
+679,Microfonia inala,864.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,"Utilidad | Nacional | Uso comun para microfonos y audio (UN-118, 10 mW). Conferencias, iglesias, teatros, bodas. SDR."
+680,TELEFONO O SIMIL,929.087500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+681,TELEFONO O SIMIL,929.862500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+682,TAXI MB,1267.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+683,COCHES 061 MB S,74.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+684,061 UVI (INSALUD,74.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+685,USO DESCONOCIDO,76.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+686,AMBULANCIAS PRIV,78.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+687,061 UVI (INSALUD,80.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+688,AMBULANCIAS MB,80.230000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+689,SUMMA B,80.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+690,SUMMA B S,80.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+691,TRAFICO,81.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+692,FORESTALES,81.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+693,USO DESCONOCIDO,81.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+694,USO DESCONOCIDO,82.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+695,FORESTALES,82.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+696,BOMBEROS,83.651000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+697,D.Y.A.,85.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+698,D.Y.A.,85.527000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+699,FORESTALES,86.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+700,RADIOAFICIONADOS,140.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+701,USO DESCONOCIDO ,140.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+702,CONSERVACION CAR,142.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+703,USO DESCONOCIDO ,142.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+704,RADIOAFICIONADOS,144.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+705,RADIOAFICIONADOS,145.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+706,RADIOAFICIONADOS,145.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Madrid/Nacional
+707,PROTECCION CIVIL,146.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+708,PROTECCION CIVIL,146.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+709,PROTECCION CIVIL,146.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+710,PROTECCION CIVIL,146.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+711,PROTECCION CIVIL,146.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+712,PROTECCION CIVIL,146.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+713,PROTECCION CIVIL,146.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+714,PROTECCION CIVIL,146.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+715,USO DESCONOCIDO ,146.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+716,PROTECCION CIVIL,146.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+717,USO DESCONOCIDO ,146.685000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+718,PROTECCION CIVIL,146.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+719,PROTECCION CIVIL,146.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+720,PROTECCION CIVIL,146.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+721,USO DESCONOCIDO ,146.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+722,USO DESCONOCIDO,147.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+723,HIDROELECTRICA,147.420000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+724,PROTECCIÓN CIVIL,147.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+725,USO DESCONOCIDO,147.465000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+726,AMBULANCIAS SANT,147.787000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+727,USO DESCONOCIDO,147.815000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+728,USO DESCONOCIDO ,148.115000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+729,USO DESCONOCIDO ,148.155000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+730,USO DESCONOCIDO,149.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+731,USO DESCONOCIDO,149.190000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+732,AMBULANCIAS ELEN,149.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+733,USO DESCONOCIDO ,149.630000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+734,AMBULANCIAS,149.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+735,USO DESCONOCIDO ,150.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+736,USO DESCONOCIDO,150.205000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+737,USO DESCONOCIDO,150.335000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+738,USO DESCONOCIDO,150.355000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+739,USO DESCONOCIDO ,150.420000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+740,AMBULANCIAS PRIV,150.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+741,USO DESCONOCIDO,150.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+742,USO DESCONOCIDO,150.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+743,AMBULANCIAS B,151.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+744,HANDLING (TRIPUL,151.220000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+745,"VIAJES, USO DESC",151.445000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+746,USO DESCONOCIDO ,151.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+747,HANDLING AEROPUE,151.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+748,AUTOBUSES o AMBU,151.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+749,Frecuencia itine,151.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Uso común | Nacional
+750,HANDLING C MB,151.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+751,HANDLING AEROPUE,151.720000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+752,HANDLING (COCHES,151.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+753,USO DESCONOCIDO ,151.730000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+754,USO DESCONOCIDO ,152.085000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+755,USO DESCONOCIDO ,152.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+756,USO DESCONOCIDO ,152.370000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+757,USO DESCONOCIDO ,152.380000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+758,TRASPORTE A RESI,152.385000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+759,HANDLING C MB,152.395000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+760,USO DESCONOCIDO ,152.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+761,USO DESCONOCIDO ,152.742000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+762,USO DESCONOCIDO,152.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+763,AMBULANCIAS PRIV,152.885000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+764,AMBULANCIAS MB S,152.935000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+765,USO DESCONOCIDO ,152.970000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+766,AMBULANCIAS SANT,152.987500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+767,USO DESCONOCIDO ,153.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+768,ANTIGUA SAMUR,153.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+769,HANDLING TAXI O ,153.130000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+770,PUEDEN SER AUXIL,153.135000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+771,USO DESCONOCIDO,153.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+772,USO DESCONOCIDO ,153.245000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+773,CONSERVACION CAR,153.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+774,RENFE (RUIDO) MB,153.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+775,USO DESCONOCIDO,153.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+776,ANTIGUA SAMUR,153.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+777,USO DESCONOCIDO ,153.835000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+778,AMBULANCIAS ALER,153.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+779,PUEDEN SER AMBUL,154.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+780,AMBULANCIAS GONZ,154.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+781,USO DESCONOCIDO ,154.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+782,USO DESCONOCIDO,154.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+783,AMBULANCIA EUROP,154.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+784,AMBULANCIAS EURO,154.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+785,AMBULANCIAS EURO,154.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+786,USO DESCONOCIDO ,155.170000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+787,USO DESCONOCIDO ,155.215000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+788,HANDLING MB S,155.260000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+789,USO DESCONOCIDO,155.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+790,USO DESCONOCIDO ,156.235000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+791,USO DESCONOCIDO,156.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+792,USO DESCONOCIDO ,156.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+793,AUTOBUSES,156.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+794,USO DESCONOCIDO ,156.910000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+795,USO DESCONOCIDO,157.035000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+796,AUTOBUSES BLAS Y,157.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+797,USO DESCONOCIDO,157.162500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+798,BOMBEROS (MOSTOL,157.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+799,USO DESCONOCIDO,157.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+800,USO DESCONOCIDO,158.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+801,PROTECCION CIVIL,159.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+802,USO DESCONOCIDO,159.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+803,PROTECCION CIVIL,159.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+804,HIDROELECTRICA,159.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+805,USO DESCONOCIDO,160.215000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+806,USO DESCONOCIDO,160.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+807,USO DESCONOCIDO,160.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+808,CRUZ ROJA,161.370000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+809,USO DESCONOCIDO,161.415000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+810,AMBULANCIAS PRIV,161.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+811,AMBULANCIAS PRIV,161.625100,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+812,CRUZ ROJA o AMBU,161.635000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+813,AUTOBUSES BLAS Y,161.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+814,USO DESCONOCIDO ,161.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+815,USO DESCONOCIDO ,161.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+816,AMBULANCIAS,161.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+817,USO DESCONOCIDO,161.735000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+818,PARQUIMETROS DE ,161.760000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+819,AMBULANCIAS MB S,161.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+820,USO DESCONOCIDO,162.987000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+821,USO DESCONOCIDO ,163.435000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+822,CRUZ ROJA MB,163.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+823,USO DESCONOCIDO ,163.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+824,CRUZ ROJA MB S,163.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+825,CRUZ ROJA,163.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+826,PROTECCION CIVIL,164.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+827,HIDROELECTRICA,164.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+828,HIDROELECTRICA,164.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+829,USO DESCONOCIDO,164.845000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+830,USO DESCONOCIDO,164.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+831,CRUZ ROJA MB,164.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+832,PROTECCION CIVIL,165.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+833,PROTECCION CIVIL,165.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+834,USO DESCONOCIDO,165.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+835,CRUZ ROJA LAS PO,165.770000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+836,USO DESCONOCIDO,165.895000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+837,USO DESCONOCIDO ,166.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+838,CRUZ ROJA MB,166.080000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+839,CRUZ ROJA MB S,166.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+840,CRUZ ROJA MB,166.105000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+841,CRUZ ROJA MB,166.110000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+842,USO DESCONOCIDO,166.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+843,CRUZ ROJA MB S,166.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+844,GAS NATURAL,167.512500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+845,GAS NATURAL,167.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+846,GAS NATURAL,167.537500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+847,GAS NATURAL,167.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+848,GAS NATURAL,167.562500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+849,GAS NATURAL,167.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+850,GAS NATURAL,167.587500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+851,GAS NATURAL,167.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+852,USO DESCONOCIDO ,168.695000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+853,METRO (CANAL 2),169.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+854,METRO (CANAL 1) ,169.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+855,METRO (CANAL 3) ,169.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+856,CONSTRUCCIONES R,169.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+857,CRUZ ROJA MB S,170.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+858,USO DESCONOCIDO,170.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+859,USO DESCONOCIDO,171.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+860,GAS NATURAL,172.112500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+861,GAS NATURAL,172.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+862,GAS NATURAL,172.137500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+863,GAS NATURAL,172.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+864,GAS NATURAL,172.162500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+865,GAS NATURAL,172.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+866,GAS NATURAL,172.187500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+867,GAS NATURAL,172.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Servicios/Utilities | Madrid/Nacional
+868,METRO (CANAL 1) ,173.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+869,METRO (CANAL 2),173.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+870,USO DESCONOCIDO,173.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+871,METRO (CANAL 3) ,173.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+872,AMBULANCIAS PRIV,194.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+873,INCENDIOS MB,198.670000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Protección civil | Madrid/Nacional
+874,USO DESCONOCIDO,209.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+875,PUEDE SER EMT,209.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+876,USO DESCONOCIDO ,225.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+877,USO DESCONOCIDO ,226.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+878,USO DESCONOCIDO,226.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+879,EMT C B,229.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+880,USO DESCONOCIDO,229.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+881,USO DESCONOCIDO,229.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+882,EMT MB,229.640000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+883,EMT MB,229.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+884,USO DESCONOCIDO ,229.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+885,USO DESCONOCIDO,229.790000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+886,EMT MB S,230.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+887,USO DESCONOCIDO ,230.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+888,EMT MB,230.260000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+889,EMT B,230.340000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+890,EMT B,230.385000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+891,EMT MB,230.387000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+892,USO DESCONOCIDO ,231.030000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+893,USO DESCONOCIDO ,231.135000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+894,EMT MB,231.145000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+895,EMT MB,231.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+896,USO DESCONOCIDO,231.278400,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+897,USO DESCONOCIDO ,231.390000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+898,EMT MB,231.415000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+899,USO DESCONOCIDO ,231.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+900,EMT MB,231.615000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+901,SECOP (FORESTALE,231.735000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+902,EMT B,231.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+903,EMT MB,231.810000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+904,USO DESCONOCIDO ,232.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+905,USO DESCONOCIDO ,232.140000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+906,USO DESCONOCIDO ,232.195000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+907,USO DESCONOCIDO,232.290000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+908,USO DESCONOCIDO ,232.630000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+909,USO DESCONOCIDO ,233.015000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+910,BOMBEROS MADRID,337.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+911,USO DESCONOCIDO ,404.487500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+912,BOMBEROS (RED TR,407.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+913,USO DESCONOCIDO,407.312500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+914,"BOMBEROS (2,7, M",407.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+915,USO DESCONOCIDO ,407.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+916,USO DESCONOCIDO,409.362500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+917,BOMBEROS CAM o D,414.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+918,"BOMBEROS (9,4,11",414.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+919,"BOMBEROS (2,7, M",414.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+920,FORESTALES,414.440000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+921,TRUCKING MUNICIP,414.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+922,FORESTALES MB,414.540000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+923,Trucking municip,414.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+924,PUEDEN SER FORES,414.562500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+925,BOMBEROS CAM o P,414.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+926,"BOMBEROS (5,10,1",414.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+927,"BOMBEROS (5,10,1",414.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+928,"BOMBEROS (1,3,6)",414.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+929,ANTIGUA SAMUR,414.912500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+930,"FORESTALES, Truc",414.915000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+931,"USO DESCONOCIDO,",414.935000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+932,USO DESCONOCIDO ,415.887500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+933,USO DESCONOCIDO ,417.510000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+934,BOMBEROS,418.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+935,BOMBEROS CAM CH.,418.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+936,USO DESCONOCIDO,419.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+937,AMBULANCIAS PRIV,423.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+938,USO DESCONOCIDO,424.237500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+939,AMBULANCIAS PRIV,428.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Emergencia sanitaria | Madrid/Nacional
+940,FORESTALES MB,429.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+941,USO DESCONOCIDO,429.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+942,USO DESCONOCIDO,430.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+943,USO DESCONOCIDO ,436.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+944,"BOMBEROS (1,3,6,",436.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+945,USO DESCONOCIDO ,445.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+946,RENFE MANIOBRAS ,447.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+947,USO DESCONOCIDO ,448.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+948,RENFE (RUIDO) MB,448.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+949,USO DESCONOCIDO ,448.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+950,RENFE (RUIDO),448.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+951,USO DESCONOCIDO,448.580000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+952,RENFE (RUIDO) MB,448.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+953,SEGURIDAD METRO ,451.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+954,USO DESCONOCIDO,451.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+955,USO DESCONOCIDO ,452.387500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+956,USO DESCONOCIDO,455.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+957,RENFE (SIN PITID,457.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+958,RENFE (SIN PITID,457.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+959,RENFE MANIOBRAS ,457.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+960,RENFE (SIN PITID,457.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+961,RENFE (SIN PITID,458.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+962,USO DESCONOCIDO ,458.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+963,RENFE (SIN PITID,458.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+964,RENFE (SIN PITID,458.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+965,RENFE (SIN PITID,458.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+966,RENFE,458.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+967,USO DESCONOCIDO,460.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+968,USO DESCONOCIDO,460.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+969,BOMBEROS,461.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+970,SEGURIDAD RENFE ,461.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+971,RENFE (MANIOBRAS,461.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+972,USO DESCONOCIDO ,462.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+973,CARRETERAS C MB,462.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Transporte | Madrid/Nacional
+974,BOMBEROS ALCORCO,462.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+975,BOMBEROS LEGANES,463.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+976,BOMBEROS CAM,464.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+977,BOMBEROS CAM,464.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+978,BOMBEROS CAM,464.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Protección civil | Madrid/Nacional
+979,USO DESCONOCIDO ,468.185000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+980,USO DESCONOCIDO,468.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+981,TELEFONO O SIMIL,470.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+982,USO DESCONOCIDO,475.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+983,USO DESCONOCIDO,484.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+984,USO DESCONOCIDO,484.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+985,USO DESCONOCIDO,540.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+986,USO DESCONOCIDO,572.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+987,USO DESCONOCIDO,580.700000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+988,USO DESCONOCIDO,588.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+989,USO DESCONOCIDO,596.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+990,USO DESCONOCIDO,612.900000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+991,USO DESCONOCIDO,620.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+992,USO DESCONOCIDO,636.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+993,USO DESCONOCIDO,644.800000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+994,USO DESCONOCIDO,652.850000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+995,USO DESCONOCIDO,660.850000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+996,USO DESCONOCIDO,663.050000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+997,USO DESCONOCIDO,663.100000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+998,USO DESCONOCIDO,684.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+999,USO DESCONOCIDO,700.750000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1000,USO DESCONOCIDO,723.050000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1001,USO DESCONOCIDO,724.800000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1002,USO DESCONOCIDO,727.000000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1003,USO DESCONOCIDO,748.800000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1004,USO DESCONOCIDO,788.850000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1005,USO DESCONOCIDO,796.737500,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1006,USO DESCONOCIDO,820.777000,,0.000000,,88.5,88.5,023,NN,WFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1007,TORREJON O EA,6.724000,,0.000000,,88.5,88.5,023,NN,USB,5.00,,Aeronáutica | Madrid/Nacional
+1008,POLICIA MILITAR,74.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1009,PROSEGUR,74.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1010,GUARDIA CIVIL MB,75.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1011,GUARDIA CIVIL,75.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1012,GUARDIA CIVIL,75.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1013,GUARDIA CIVIL,75.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1014,GUARDIA CIVIL,75.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1015,GUARDIA CIVIL,75.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1016,GUARDIA CIVIL,75.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1017,GUARDIA CIVIL,75.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1018,GUARDIA CIVIL,75.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1019,GUARDIA CIVIL,75.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1020,GUARDIA CIVIL,75.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1021,GUARDIA CIVIL,75.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1022,GUARDIA CIVIL,75.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1023,GUARDIA CIVIL,75.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1024,GUARDIA CIVIL,75.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1025,GUARDIA CIVIL,75.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1026,GUARDIA CIVIL,75.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1027,GUARDIA CIVIL MB,75.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1028,GUARDIA CIVIL,75.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1029,GUARDIA CIVIL,75.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1030,GUARDIA CIVIL,75.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1031,GUARDIA CIVIL MB,76.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1032,GUARDIA CIVIL,76.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1033,GUARDIA CIVIL MB,76.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1034,GUARDIA CIVIL,76.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1035,GUARDIA CIVIL,76.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1036,GUARDIA CIVIL,76.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1037,GUARDIA CIVIL,76.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1038,GUARDIA CIVIL MB,76.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1039,GUARDIA CIVIL,76.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1040,GUARDIA CIVIL,76.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1041,GUARDIA CIVIL,76.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1042,GUARDIA CIVIL,76.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1043,GUARDIA CIVIL,76.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1044,GUARDIA CIVIL,76.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1045,GUARDIA CIVIL,76.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1046,GUARDIA CIVIL,76.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1047,GUARDIA CIVIL,76.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1048,GUARDIA CIVIL,76.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1049,GUARDIA CIVIL,76.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1050,GUARDIA CIVIL MB,76.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1051,GUARDIA CIVIL,76.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1052,GUARDIA CIVIL,76.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1053,GUARDIA CIVIL,76.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1054,GUARDIA CIVIL,76.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1055,POLICIA MILITAR,84.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1056,GUARDIA CIVIL,84.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1057,GUARDIA CIVIL,84.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1058,GUARDIA CIVIL,84.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1059,GUARDIA CIVIL,84.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1060,GUARDIA CIVIL,84.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1061,GUARDIA CIVIL,84.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1062,GUARDIA CIVIL,84.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1063,GUARDIA CIVIL,84.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1064,GUARDIA CIVIL,84.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1065,GUARDIA CIVIL,84.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1066,GUARDIA CIVIL MB,85.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1067,GUARDIA CIVIL,85.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1068,GUARDIA CIVIL,85.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1069,GUARDIA CIVIL 93,85.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1070,GUARDIA CIVIL 94,85.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1071,GUARDIA CIVIL 95,85.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1072,GUARDIA CIVIL 96,85.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1073,GUARDIA CIVIL 97,85.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1074,GUARDIA CIVIL 98,85.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1075,GUARDIA CIVIL 99,85.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1076,GUARDIA CIVIL,85.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1077,GUARDIA CIVIL,85.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1078,GUARDIA CIVIL,85.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1079,GUARDIA CIVIL,85.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1080,GUARDIA CIVIL,85.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1081,GUARDIA CIVIL,85.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1082,GUARDIA CIVIL,85.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1083,GUARDIA CIVIL,85.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1084,GUARDIA CIVIL (A,85.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1085,GUARDIA CIVIL,85.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1086,GUARDIA CIVIL,85.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1087,GUARDIA CIVIL,85.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1088,GUARDIA CIVIL,85.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1089,GUARDIA CIVIL,85.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1090,GUARDIA CIVIL,85.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1091,GUARDIA CIVIL,85.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1092,GUARDIA CIVIL( E,85.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1093,GUARDIA CIVIL,85.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1094,GUARDIA CIVIL,85.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1095,GUARDIA CIVIL,85.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1096,GUARDIA CIVIL DE,85.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1097,GUARDIA CIVIL,85.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1098,GUARDIA CIVIL,85.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1099,GUARDIA CIVIL,85.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1100,GUARDIA CIVIL DE,85.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1101,GUARDIA CIVIL,85.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1102,GUARDIA CIVIL,85.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1103,GUARDIA CIVIL MB,85.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1104,GUARDIA CIVIL,86.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1105,GUARDIA CIVIL,86.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1106,GUARDIA CIVIL,86.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1107,GUARDIA CIVIL,86.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1108,GUARDIA CIVIL,86.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1109,GUARDIA CIVIL (C,86.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1110,GUARDIA CIVIL,86.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1111,GUARDIA CIVIL,86.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1112,HELICOPERO GUARD,86.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1113,GUARDIA CIVIL,86.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1114,GUARDIA CIVIL,86.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1115,GUARDIA CIVIL DE,86.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1116,GUARDIA CIVIL,86.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1117,GUARDIA CIVIL,86.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1118,GUARDIA CIVIL,86.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1119,GUARDIA CIVIL,86.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1120,GUARDIA CIVIL,86.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1121,GUARDIA CIVIL,86.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1122,GUARDIA CIVIL,86.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1123,GUARDIA CIVIL,86.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1124,GUARDIA CIVIL (C,86.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1125,RODADURA TORREJO,118.300000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1126,TWR TORREJON MB ,122.100000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1127,MIL F-18 MB,130.300000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1128,MIL. MADRID APP ,141.700000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1129,POLICIA LOCAL ( ,148.140000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1130,POLICIA MUNICIPA,150.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1131,POLICIA MUNICIPA,151.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1132,POLICIA MUNICIPA,151.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Aeronáutica | Madrid/Nacional
+1133,POLICIA MUNICIPA,152.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1134,POLICIA LOCAL (M,152.735000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1135,POLICIA LOCAL (M,152.740000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1136,POLICIA LOCAL (M,153.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1137,POLICIA LOCAL C ,154.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1138,GUARDIA CIVIL TR,158.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1139,POLICIA LOCAL AL,160.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1140,POLICIA LOCAL MO,160.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1141,GUARDIA CIVIL MB,163.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1142,EMERGENCIA NUCLE,163.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1143,POLICIA LOCAL AL,164.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1144,GUARDIA CIVIL CO,164.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1145,POLICIA MUNICIPA,164.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1146,POLICIA MUNICIPA,165.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1147,GUARDIA CIVIL CE,166.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1148,GUARDIA CIVIL,166.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1149,GUARDIA CIVIL,166.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1150,GUARDIA CIVIL,167.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1151,GUARDIA CIVIL,167.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1152,GUARDIA CIVIL,167.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1153,GUARDIA CIVIL,167.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1154,GUARDIA CIVIL,167.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1155,GUARDIA CIVIL,167.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1156,GUARDIA CIVIL,167.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1157,GUARDIA CIVIL,167.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1158,GUARDIA CIVIL,167.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1159,GUARDIA CIVIL,167.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1160,GUARDIA CIVIL,167.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1161,GUARDIA CIVIL,167.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1162,GUARDIA CIVIL,167.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1163,GUARDIA CIVIL,167.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1164,GUARDIA CIVIL,167.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1165,GUARDIA CIVIL,167.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1166,GUARDIA CIVIL,167.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1167,GUARDIA CIVIL,167.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1168,GUARDIA CIVIL,167.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1169,GUARDIA CIVIL,167.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1170,GUARDIA CIVIL,167.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1171,GUARDIA CIVIL,167.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1172,GUARDIA CIVIL,167.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1173,GUARDIA CIVIL,167.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1174,GUARDIA CIVIL,167.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1175,GUARDIA CIVIL,167.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1176,GUARDIA CIVIL,167.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1177,GUARDIA CIVIL,167.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1178,GUARDIA CIVIL,167.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1179,GUARDIA CIVIL,167.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1180,GUARDIA CIVIL,167.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1181,GUARDIA CIVIL,167.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1182,GUARDIA CIVIL,167.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1183,GUARDIA CIVIL,167.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1184,GUARDIA CIVIL,167.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1185,GUARDIA CIVIL,167.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1186,GUARDIA CIVIL,168.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1187,GUARDIA CIVIL,168.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1188,GUARDIA CIVIL,168.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1189,GUARDIA CIVIL,168.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1190,GUARDIA CIVIL,168.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1191,GUARDIA CIVIL MB,168.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1192,GUARDIA CIVIL,168.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1193,GUARDIA CIVIL - ,168.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1194,GUARDIA CIVIL,168.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1195,GUARDIA CIVIL,168.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1196,GUARDIA CIVIL,168.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1197,GUARDIA CIVIL,168.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1198,"PARECEN TAXIS, G",168.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1199,GUARDIA CIVIL (C,168.320000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1200,GUARDIA CIVIL,168.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1201,GUARDIA CIVIL,168.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1202,GUARDIA CIVIL,168.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1203,GUARDIA CIVIL,168.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1204,GUARDIA CIVIL,168.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1205,GUARDIA CIVIL,168.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1206,GUARDIA CIVIL,168.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1207,GUARDIA CIVIL,168.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1208,GUARDIA CIVIL,168.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1209,GUARDIA CIVIL,168.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1210,GUARDIA CIVIL,168.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1211,GUARDIA CIVIL,168.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1212,GUARDIA CIVIL,168.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1213,GUARDIA CIVIL,168.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1214,GUARDIA CIVIL,168.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1215,GUARDIA CIVIL MB,168.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1216,POLICIA LOCAL C ,168.720000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1217,GUARDIA CIVIL B,168.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1218,GUARDIA CIVIL,168.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1219,GUARDIA CIVIL,168.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1220,GUARDIA CIVIL,168.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1221,GUARDIA CIVIL,168.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1222,GUARDIA CIVIL,168.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1223,GUARDIA CIVIL - ,168.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1224,GUARDIA CIVIL,172.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1225,GUARDIA CIVIL,172.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1226,GUARDIA CIVIL,172.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1227,GUARDIA CIVIL,172.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1228,GUARDIA CIVIL,172.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1229,GUARDIA CIVIL,172.600000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1230,GUARDIA CIVIL,172.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1231,GUARDIA CIVIL,172.650000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1232,GUARDIA CIVIL,172.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1233,GUARDIA CIVIL,172.700000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1234,GUARDIA CIVIL C ,172.725000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1235,GUARDIA CIVIL C ,172.750000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1236,GUARDIA CIVIL C ,172.775000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1237,GUARDIA CIVIL C ,172.825000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1238,GUARDIA CIVIL,172.850000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1239,POLICIA MUNICIPA,172.875000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1240,GUARDIA CIVIL C ,172.925000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1241,GUARDIA CIVIL o ,172.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1242,GUARDIA CIVIL,172.975000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1243,GUARDIA CIVIL,173.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1244,GUARDIA CIVIL,173.025000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1245,GUARDIA CIVIL,173.050000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1246,GUARDIA CIVIL,173.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1247,GUARDIA CIVIL,173.100000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1248,GUARDIA CIVIL,173.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1249,GUARDIA CIVIL,173.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1250,GUARDIA CIVIL,173.175000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1251,GUARDIA CIVIL,173.200000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1252,GUARDIA CIVIL,173.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1253,GUARDIA CIVIL C ,173.250000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1254,GUARDIA CIVIL C ,173.275000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1255,GUARDIA CIVIL,173.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1256,GUARDIA CIVIL,173.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1257,GUARDIA CIVIL,173.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1258,GUARDIA CIVIL C ,173.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1259,GUARDIA CIVIL,173.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1260,GUARDIA CIVIL,173.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1261,GUARDIA CIVIL,173.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1262,GUARDIA CIVIL,173.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1263,GUARDIA CIVIL,173.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1264,GUARDIA CIVIL,173.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1265,POLICIA LOCAL O ,230.195000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1266,MIL ACC MADRID M,242.000000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1267,MIL TORREJON Dir,242.050000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1268,Frecuencia de em,243.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Defensa | Nacional
+1269,MIL APP MB,336.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1270,MIL ACC MADRID M,357.400000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1271,MIL. PEGASO CH.1,364.200000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1272,POLICIA LOCAL,373.450000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1273,MIL RODADURA TOR,375.000000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1274,MIL ACC MADRID M,379.550000,,0.000000,,88.5,88.5,023,NN,AM,5.00,,Aeronáutica | Madrid/Nacional
+1275,Frecuencia del T,380.000000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Nacional
+1276,POLICIA MUNICIPA,413.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1277,SEG PRIVADA C MB,413.900000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1278,POLICIA DE MAJAD,423.912500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1279,SELUR MB S,425.890000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1280,GRUAS O POLICIA ,443.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1281,ANTIGUA GUARDIA ,451.075000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1282,POLI NA,451.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Otros/Sin identificar | Madrid/Nacional
+1283,POLICIA LOCAL (A,458.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1284,POLICIA LOCAL PA,462.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1285,POLICIA LOCAL (G,462.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1286,POLICIA LOCAL MB,463.087500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1287,POLICIA LOCAL,463.150000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1288,POLICIA LOCAL FU,463.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1289,POLICIA LOCAL LE,463.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1290,POLICIA LOCAL (G,464.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1291,POLICIA LOCAL (A,468.125000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1292,POLICIA LOCAL (A,468.285000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1293,POLICIA LOCAL (A,468.800000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1294,POLICIA LOCAL,474.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1295,POLICIA LOCAL (L,484.950000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Seguridad/Defensa | Madrid/Nacional
+1296,ED1YBQ Repetidor,29.680000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -100 kHz · RH7 · IN70DI
+1297,ED7YAM Repetidor,51.810000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RF81 · IM77OX
+1298,ED3YAI Repetidor,51.900000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RF90 · JN02WH
+1299,ED4YAW Repetidor,51.950000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RF95 · IN70WR
+1300,ED4YAG Repetidor,144.800000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | IN80DJ
+1301,ED7YAU Repetidor,144.800000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | IM76AT
+1302,ED3ZAN Repetidor,145.587500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -600 kHz · JN12LG
+1303,ED1YAO Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV48 - R0 · IN63GO
+1304,ED1YBM Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV48 - R0 · IN81UW
+1305,ED1YBX Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV48 - R0 · IN52UP
+1306,ED2YAC Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV48 - R0 · IN83RF
+1307,ED2YAL Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV48 - R0 · IN90LC
+1308,ED2YAM Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV48 - R0 · JN01EM
+1309,ED3YAJ Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV48 - R0 · JN11ES
+1310,ED4YAD Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 82.5 · RV48 - R0 · IN80CI
+1311,ED5YAK Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV48 - R0 · IM97FU
+1312,ED6YAD Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV48 - R0 · JM29BX
+1313,ED8YAA Repetidor,145.600000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV48 - R0 · IL39FC
+1314,ED1YBN Repetidor,145.612500,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV49 · IN73WG
+1315,ED1YBO Repetidor,145.612500,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV49 · IN62RJ
+1316,ED1YAD Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV50 - R1 · IN63CO
+1317,ED1YBT Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV50 - R1 · IN82JG
+1318,ED2YAF Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV50 - R1 · IN83XF
+1319,ED2YAI Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV50 - R1 · IN91GJ
+1320,ED3YBA Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV50 - R1 · JN12ED
+1321,ED4YAS Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV50 - R1 · IM68PL
+1322,ED4YAV Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 67.0 · RV50 - R1 · IN70PD
+1323,ED4YAZ Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV50 - R1 · IM98NS
+1324,ED5YAB Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV50 - R1 · IM97MO
+1325,ED5YAP Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV50 - R1 · IM99TQ
+1326,ED5YAT Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 127.3 · RV50 - R1 · IM97FJ
+1327,ED6ZAC Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -600 kHz · RV50-R1 · JM19IR
+1328,ED7YAN Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV50 - R1 · IM87HB
+1329,ED8YAE Repetidor,145.625000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV50 - R1 · IL27FW
+1330,ED1ZBG_C Repetid,145.637500,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -600 kHz · RV51 · IN62EI
+1331,ED1YAG Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IN52QQ
+1332,ED1YAL Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 67.0 · RV52 - R2 · IN71CM
+1333,ED1YAS Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 123 · RV52 - R2 · IN83GK
+1334,ED1YBB Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IN73BJ
+1335,ED2YAJ Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IN91NP
+1336,ED2YAP Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IN82QU
+1337,ED3YAK Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · JN11BJ
+1338,ED3YAY Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · JN01HO
+1339,ED4YAC Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IN80DK
+1340,ED5YAG Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV52 - R2 · IM98SI
+1341,ED5YAN Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IM98VW
+1342,ED6YAC Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV52 - R2 · JM19ON
+1343,ED7YAJ Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IM86SU
+1344,ED7YAP Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IM77AJ
+1345,ED7YAT Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IM87CP
+1346,ED8YAH Repetidor,145.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV52 - R2 · IL18CP
+1347,ED1YAM Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 67.0 · RV54 - R3 · IN83CK
+1348,ED1YAW Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV54 - R3 · IN53PG
+1349,ED1YAZ Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV54 - R3 · IN72EU
+1350,ED1YBG Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV54 - R3 · IN52PC
+1351,ED2YAR Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV54 - R3 · IN93FQ
+1352,ED3YAH Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV54 - R3 · JN00ET
+1353,ED3YAU Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV54 - R3 · JN02IP
+1354,ED3YAZ Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV54 - R3 · JN12GA
+1355,ED4YAE Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 97.4 · RV54 - R3 · IN70WR
+1356,ED4YAO Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 67.0 · RV54 - R3 · IN60XA
+1357,ED5YAW Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 123.0 · RV54-R3 · IM88XR
+1358,ED6YAE Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 173.8 · RV54 - R3 · JM08PV
+1359,ED7YAC Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV54 - R3 · IM77OX
+1360,ED7YAH Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV54 - R3 · IM87SF
+1361,ED7YAK Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV54 - R3 · IM67OV
+1362,ED8YAF Repetidor,145.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV54 - R3 · IL38BM
+1363,ED2YAS Repetidor,145.687500,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV55 · IN83CH
+1364,ED5ZAC Repetidor,145.687500,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -600 kHz · RV55 · JM08BU
+1365,ED1YAF Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 71.9 · RV56 - R4 · IN70OM
+1366,ED1YAI Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · IN62JR
+1367,ED1YAQ Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · IN73TA
+1368,ED2YAA Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · IN83ND
+1369,ED2YAH Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · IN91SR
+1370,ED3YAB Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV56 - R4 · JN01VO
+1371,ED3YAP Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · JN12LG
+1372,ED4YAT Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV56 - R4 · IM68SU
+1373,ED5YAA Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · IM88TP
+1374,ED5YAF Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV56 - R4 · IM98OL
+1375,ED5YAH Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · JN00AC
+1376,ED6YAA Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · JM19HO
+1377,ED7YAD Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 82.5 · RV56 - R4 · IM76QO
+1378,ED7YAQ Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV56 - R4 · IM77EU
+1379,ED7YAS Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · IM87ON
+1380,ED8YAC Repetidor,145.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV56 - R4 · IL07XR
+1381,ED1ZBG Repetidor,145.712500,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -600 kHz · RV46 · IN62EI
+1382,ED6YAF Repetidor,145.712500,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV57 · JM19JR
+1383,ED1YAB Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV58 - R5 · IN82PO
+1384,ED1YAH Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IN63FK
+1385,ED1YBH Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IN72CX · 1850 m
+1386,ED1YBU Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 67.0 · RV58 - R5 · IN71QO
+1387,ED1YBW Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IN52PH
+1388,ED2YAD Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IN83JE
+1389,ED2YAG Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IN93BH
+1390,ED2YAK Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IN92RI
+1391,ED3YAL Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · JN01WU
+1392,ED4YAI Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 85.4 · RV58 - R5 · IN79VA
+1393,ED4YAL Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IN80QT · Fuera de servicio
+1394,ED4YAP Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IM69TL
+1395,ED4YAY Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IM79XV
+1396,ED5YAI Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV58 - R5 · IM98RP
+1397,ED7YAG Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IM86OV
+1398,ED7YAO Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 82.5 · RV58 - R5 · IM76RW
+1399,ED8YAI Repetidor,145.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV58 - R5 · IL18JC
+1400,ED3YAQ Repetidor,145.737500,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -600 kHz · RV59 · JN01CT
+1401,ED1YAC Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV60 - R6 · IN92AD
+1402,ED1YBI Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IN73JK · 1161 m
+1403,ED1YBJ Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IN70WW
+1404,ED1YBY Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IN62IG
+1405,ED1YCB Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 74.4 · RV60 - R6 · IN72ST
+1406,ED2YAN Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IN83PI
+1407,ED3YAG Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 123.0 · RV60 - R6 · JN01SU
+1408,ED3YBB Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · JN11MT
+1409,ED4YAM Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IM78WO
+1410,ED4YBA Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 67.0 · RV60 - R6 · IN80WC
+1411,ED5YAC Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 118.8 · RV60 - R6 · JM08BU
+1412,ED5YAO Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IM98RX
+1413,ED5YAR Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IM97NO
+1414,ED6YAB Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · JM19KM
+1415,ED7YAF Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 82.5 · RV60 - R6 · IM76JL
+1416,ED8YAG Repetidor,145.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV60 - R6 · IL18UM
+1417,ED1YAE Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV62 - R7 · IN53UK
+1418,ED1YAN Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV62 - R7 · IN71QX
+1419,ED1YBC Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · IN63TI · 1049 m
+1420,ED1YBK Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV62 - R7 · IN62CI
+1421,ED1YBZ Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV62 - R7 · IN60VM
+1422,ED2YAQ Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · IN82RX
+1423,ED2ZAB Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · IN83CH
+1424,ED3YAF Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 77.0 · RV62 - R7 · JN12BE
+1425,ED3YAW Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · JN02JA
+1426,ED4YAH Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · IM88JO
+1427,ED4YAR Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV62 - R7 · IM79GA
+1428,ED5YAQ Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · IM99NJ
+1429,ED6YAG Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 88.5 · RV62 - R7 · JM19ON
+1430,ED7YAA Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · CTCSS 82.5 · RV62 - R7 · IM76DT
+1431,ED8YAD Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · IL28HD
+1432,ED9YAA Repetidor,145.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -600 kHz · RV62 - R7 · IM85MH
+1433,ED5YAJ Repetidor,1298.100000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -28 MHz · RS4 · IM99TQ
+1434,ED4YAE Repetidor,1298.500000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -28 MHz · RS20 · IN70WR
+1435,ED5ZAC Repetidor,1298.500000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -28 MHz · RS20 · JM08BU
+1436,ED1YCA Baliza 28,28.226000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN73AL
+1437,ED4YAK Baliza 28,28.251000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN80FK
+1438,ED4YBA Baliza 28,28.263000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN80WC
+1439,ED6YAI Baliza 50,50.042000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | JM19NL
+1440,ED4YBA Baliza 50,50.061000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN80WC
+1441,ED7YAD Baliza 50,50.074500,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IM76QO
+1442,ED1YBR Baliza 50,50.409000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN52PF
+1443,ED8YAK Baliza 50,50.415000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IL18SJ
+1444,ED1YCA Baliza 50,50.445000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN73AL
+1445,ED1ZAG Baliza 14,144.404000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN53RE
+1446,ED7YAD Baliza 14,144.415000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IM76QO
+1447,EA6VHF Baliza 14,144.426000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | JM09TA
+1448,ED1YCA Baliza 14,144.445000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IN73AL
+1449,ED8YAQ Baliza 14,144.484500,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IL18UL · 625 m
+1450,ED3YBF Baliza 43,432.405000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | JN11CL
+1451,ED8YAJ Baliza 43,432.415000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IL18UM
+1452,ED6YAE Baliza 43,432.425500,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | JM08PV
+1453,ED8YAJ Baliza 12,1296.814000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | IL18UM
+1454,ED3YAR Baliza 12,1296.936000,,0.000000,,88.5,88.5,023,NN,CW,5.00,,Radioaficionados | Nacional | JN01WU
+1455,ED1YAK Repetidor,438.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN53VL
+1456,ED1YAN Repetidor,438.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IN71QX
+1457,ED1YAP Repetidor,438.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN62BO
+1458,ED1YAT Repetidor,438.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN83AJ
+1459,ED1YAU Repetidor,438.850000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN73TA
+1460,ED1YAV Repetidor,438.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN70EX
+1461,ED1YAX Repetidor,438.900000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IN63AK
+1462,ED1YAY Repetidor,438.800000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN53XH
+1463,ED1YAZ Repetidor,439.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IN72EU · FM-N
+1464,ED1YBA Repetidor,438.850000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 71.9 · IN70PP
+1465,ED1YBD Repetidor,438.975000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 100.0 · IN63SD · 1174 m
+1466,ED1YBE Repetidor,439.125000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IN63QL
+1467,ED1YBF Repetidor,439.075000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN73EK
+1468,ED1YBL-R Repetid,438.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IN62EI
+1469,ED1YBM Repetidor,439.300000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 71.9 · IN81UW
+1470,ED1YBO Repetidor,439.175000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN62RJ
+1471,ED1YBP Repetidor,439.000000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IN52PO
+1472,ED1YBS Repetidor,438.875000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IN52QJ
+1473,ED1YBV Repetidor,439.050000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN71PP
+1474,ED1YCD Repetidor,439.400000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN82MQ
+1475,ED1YCF Repetidor,439.025000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN73OJ
+1476,ED1ZAB Repetidor,438.300000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN70DW · D-Star
+1477,ED1ZAJ Repetidor,438.325000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN61GV · D-Star
+1478,ED1ZAK Repetidor,438.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 131.8 · IN82EH
+1479,ED1ZAT Repetidor,438.325000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN52TQ · D-Star
+1480,ED1ZAV Repetidor,438.625000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN73CH · C4FM
+1481,ED1ZAW Repetidor,438.400000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN72JU · DMR
+1482,ED1ZAX Repetidor,438.525000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN52PO · DMR
+1483,ED1ZBG Repetidor,438.550000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN62EI · DMR
+1484,ED1ZBH Repetidor,438.575000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN62IG · DMR
+1485,ED1ZBI Repetidor,438.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN62CI · DMR
+1486,ED1ZBI_B Repetid,438.250000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN62CI · D-Star
+1487,ED1ZBJ Repetidor,438.225000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN72FN · DMR
+1488,ED2YAB Repetidor,438.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN83ND
+1489,ED2YAE Repetidor,439.000000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IN83RF
+1490,ED2YAG Repetidor,438.925000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN93BH
+1491,ED2YAH Repetidor,438.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN91SR
+1492,ED2YAJ Repetidor,438.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN91NP
+1493,ED2YAL Repetidor,439.325000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 71.9 · IN90LC
+1494,ED2YAN Repetidor,438.200000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN83PI · D-Star
+1495,ED2YAO Repetidor,438.950000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN83MF
+1496,ED2YAP Repetidor,438.675000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN82QU · D-Star
+1497,ED2YAX Repetidor,439.000000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 123.0 · JN01EM
+1498,ED2ZAA Repetidor,438.350000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN91NP · D-Star
+1499,ED3YAB Repetidor,439.425000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · JN01VO
+1500,ED3YAC Repetidor,438.800000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 110.9 · JN11AQ
+1501,ED3YAD Repetidor,438.975000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JN11BN
+1502,ED3YAE Repetidor,438.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JN01SU
+1503,ED3YAH Repetidor,439.275000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · JN00ET
+1504,ED3YAI Repetidor,439.375000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · JN02WH
+1505,ED3YAM Repetidor,438.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · JN11EW
+1506,ED3YAN Repetidor,439.125000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 114.8 · JN11BJ
+1507,ED3YAO Repetidor,438.875000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 123.0 · JN11BI
+1508,ED3YAP Repetidor,438.900000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 107.2 · JN12LG
+1509,ED3YAS Repetidor,438.950000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JN11JP
+1510,ED3YAT Repetidor,438.925000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 79.7 · JN11CK
+1511,ED3YAV Repetidor,438.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JN02JA
+1512,ED3YBC Repetidor,438.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JN11MU
+1513,ED3YBH Repetidor,438.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · JN02VC
+1514,ED4YAA Repetidor,438.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IM89EF
+1515,ED4YAB Repetidor,438.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN80CH
+1516,ED4YAF Repetidor,439.025000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN90CE
+1517,ED4YAI Repetidor,439.300000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN79VA
+1518,ED4YAJ Repetidor,439.000000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 67.0 · IN80HK
+1519,ED4YAK Repetidor,439.200000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 82.5 · IN80FK
+1520,ED4YAN Repetidor,438.950000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN80AS
+1521,ED4YAQ Repetidor,439.200000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IM69WF
+1522,ED4YAR Repetidor,439.300000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IM79GA
+1523,ED4YAU Repetidor,439.425000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN80WC
+1524,ED4YAV Repetidor,438.750000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 67.0 · IN70PD
+1525,ED4YAW Repetidor,438.900000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN70WR
+1526,ED4YAY Repetidor,438.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM79XU
+1527,ED4ZAA Repetidor,438.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN80EV · DMR
+1528,ED4ZAB Repetidor,438.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM79DR · DMR
+1529,ED4ZAD Repetidor,438.375000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN80WC · D-Star
+1530,ED4ZAG Repetidor,438.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN80DH · DMR
+1531,ED4ZAH Repetidor,438.350000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN70WR · D-Star
+1532,ED4ZAH Repetidor,438.325000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN70WR · DMR
+1533,ED4ZAH Repetidor,438.375000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN70WR · C4FM
+1534,ED4ZAL Repetidor,438.475000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM68SU · DMR
+1535,ED5YAA Repetidor,439.100000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM88TP
+1536,ED5YAD Repetidor,438.800000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JM08BU
+1537,ED5YAE Repetidor,438.725000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 79.7 · IM98WR
+1538,ED5YAF Repetidor,439.000000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · R720 - R84 · IM98OL
+1539,ED5YAG Repetidor,439.400000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 114.8 · IM98SI
+1540,ED5YAJ Repetidor,439.425000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IM99TQ
+1541,ED5YAL Repetidor,438.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IM97FU
+1542,ED5YAM Repetidor,439.050000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM98WR
+1543,ED5YAS Repetidor,438.825000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 71.9 · JN00BO
+1544,ED5YAU Repetidor,438.700000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IN98WM
+1545,ED5YAV Repetidor,439.075000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JM08BT
+1546,ED5YAY Repetidor,438.775000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IM99NJ
+1547,ED5YBA Repetidor,439.150000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM98TK
+1548,ED5YBC Repetidor,438.875000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IM98RJ
+1549,ED5ZAB Repetidor,438.200000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM99TQ · D-Star
+1550,ED5ZAB Repetidor,438.350000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM99TQ · C4FM
+1551,ED5ZAB Repetidor,438.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM99TQ · DMR
+1552,ED5ZAC Repetidor,438.300000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · JM08BU · D-Star
+1553,ED6YAH Repetidor,439.200000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · JM19LM
+1554,ED6ZAA Repetidor,438.250000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · JM19OK · D-Star
+1555,ED6ZAB Repetidor,438.450000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · JM19KM · D-Star
+1556,ED7YAB Repetidor,439.425000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IM77OX
+1557,ED7YAE Repetidor,438.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 82.5 · IM76QO
+1558,ED7YAL Repetidor,438.650000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 71.9 · IM87FR
+1559,ED7YAM Repetidor,438.925000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM77OX
+1560,ED7YAN Repetidor,438.900000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IM87HB
+1561,ED7YAR Repetidor,439.400000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM77EU
+1562,ED7YAU Repetidor,439.350000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM76AT
+1563,ED7YAV Repetidor,438.950000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 77.0 · IM66VM
+1564,ED7YAW Repetidor,438.850000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM86OV
+1565,ED7YBC Repetidor,439.025000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IM78CB
+1566,ED7ZAD Repetidor,438.525000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM77OW · D-Star
+1567,ED7ZAE Repetidor,438.300000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM87ED · D-Star
+1568,ED7ZAF Repetidor,438.300000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM86OS · DMR
+1569,ED7ZAH Repetidor,438.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM86SU · DMR
+1570,ED7ZAI Repetidor,439.000000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 88.5 · IM77AJ
+1571,ED7ZAJ Repetidor,438.300000,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM76AT · D-Star
+1572,ED7ZAL Repetidor,438.425000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM67XI · DMR
+1573,ED7ZAM Repetidor,438.500000,,0.000000,,88.5,88.5,023,NN,NFM,5.00,,Radioaficionados | Nacional | -7.6 MHz · IM66WM · C4FM
+1574,ED8YAB Repetidor,439.000000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 79.7 · IL18CP
+1575,ED8YAM Repetidor,438.800000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 79.7 · IL28ED
+1576,ED8YAN Repetidor,439.150000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 79.7 · IL18SI
+1577,ED8YAO Repetidor,439.300000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 79.7 · IL18QJ
+1578,ED8ZAB Repetidor,438.462500,,0.000000,,88.5,88.5,023,NN,DV,5.00,,Radioaficionados | Nacional | -7.6 MHz · IL27FX · D-Star
+1579,ED9YAB Repetidor,438.675000,,0.000000,,88.5,88.5,023,NN,FM,5.00,,Radioaficionados | Nacional | -7.6 MHz · CTCSS 82.5 · IM75IV

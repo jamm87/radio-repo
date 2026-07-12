@@ -15,7 +15,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const root = join(__dirname, "..");
+const root = join(__dirname, "..", "..");
 
 const TOKEN = process.env.NOTION_TOKEN;
 const DATA_SOURCE_ID = process.env.NOTION_DATA_SOURCE_ID || "b709a140-dd16-4ae8-b892-eb0d5e1ed159";
