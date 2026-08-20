@@ -1,7 +1,7 @@
 {
   "name": "radio-es",
-  "version": "2.1.0",
-  "description": "Referencia abierta de radioescucha en Espana: frecuencias, SDR, mapa y generador CHIRP.",
+  "version": "3.0.0",
+  "description": "Portal abierto de radio en España: frecuencias, repetidores, curso HAREC, plan de bandas y guías de escucha.",
   "type": "module",
   "scripts": {
     "build": "node scripts/build.js",
@@ -11,5 +11,7 @@
   },
   "license": "MIT",
   "author": "RADIO://es",
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }
