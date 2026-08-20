@@ -1,6 +1,3 @@
-> **Origen:** página «Escucha digital con SDR y portátil» del espacio de trabajo
-> Notion *RADIO://ES — Índice general*, consolidada aquí como fuente del sitio.
-
 # Escucha digital con SDR y portátil
 
 Guía práctica para decodificar modos digitales (DMR, TETRA) con un portátil modesto y un

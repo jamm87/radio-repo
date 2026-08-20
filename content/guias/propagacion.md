@@ -1,6 +1,3 @@
-> **Origen:** página «Propagación y bandas de interés» del espacio de trabajo
-> Notion *RADIO://ES — Índice general*, consolidada aquí como fuente del sitio.
-
 # Propagación y bandas de interés
 
 Cómo se comportan las bandas monitorizadas habitualmente y qué efectos atmosféricos las condicionan.

@@ -229,7 +229,9 @@ write(".nojekyll", "");
 write(
   "data/frecuencias.json",
   JSON.stringify({
-    meta: { ...freq.meta, generado: buildDate },
+    // Solo los campos pensados para el cliente: freq.meta.source nombra la
+    // fuente interna de edicion y no debe llegar al JSON publico.
+    meta: { name: freq.meta.name, description: freq.meta.description, notice: freq.meta.notice, coordsNote: freq.meta.coords_note, generado: buildDate },
     items: freq.items,
     facetas: { c: freq.facetas.categoria, b: freq.facetas.banda, z: freq.facetas.zona, m: freq.facetas.modo },
   })

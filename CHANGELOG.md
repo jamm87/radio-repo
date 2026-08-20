@@ -3,7 +3,7 @@
 ## v3.0 — Web única con todo el proyecto
 
 - **Todo el contenido en una sola web de 34 páginas**: frecuencias, repetidores, curso HAREC (19 temas), plan de bandas, guías de escucha, código Q, enlaces y marco legal, con índice lateral común, migas de pan, índice de página y navegación entre temas.
-- **Contenido de Notion consolidado en el repositorio**: las páginas de propagación, escucha digital con SDR, DMR/TETRA, diccionario de siglas y enlaces de interés pasan a `content/guias/`, `content/referencia/` y `content/enlaces.md`, y son la fuente del sitio.
+- **Nuevas guías y referencia**: propagación, escucha digital con SDR, DMR/TETRA, diccionario de siglas y enlaces de interés, en `content/guias/`, `content/referencia/` y `content/enlaces.md`.
 - **Sistema de componentes SRCL** ([www-sacred](https://github.com/internet-development/www-sacred), MIT) portado a CSS plano en `site/src/styles/sacred.css`: tokens de la paleta ANSI, rejilla en `ch`, temas claro y oscuro y los siete tintes OKLCH del original.
 - **Generador propio sin dependencias**: renderizador Markdown (tablas, listas de definición, citas, código), constructores de página, mapa de enlaces entre documentos y servidor local con índices de directorio.
 - **Explorador de datos unificado** para frecuencias y repetidores: búsqueda, filtros por facetas, orden por columna, selección, estado reflejado en la URL, mapa bajo demanda y exportación a CHIRP. En repetidores, el CSV sale con duplex, desplazamiento y subtono CTCSS.
@@ -28,10 +28,10 @@
 - Generador de memorias **CHIRP** con presets (banda aérea, radioafición, PMR446 ×16, marítimo).
 - Guía de inicio, marco legal y estética monospace tipo escáner.
 - Mapa Leaflet opcional sobre entradas con coordenadas.
-- Empaquetado como sitio estático desplegable en GitHub Pages, con sync opcional desde Notion.
+- Empaquetado como sitio estático desplegable en GitHub Pages, con sync opcional desde una base de datos externa.
 
 ## v1.0 — Prototipo
 
-- Web conectada a base de datos Notion como CRM.
+- Web conectada a una base de datos externa a modo de CRM.
 - Frecuencias de banda aérea (Madrid), radioafición, PMR446 y SDR.
 - Dial de bandas interactivo, filtros y alta de entradas.

@@ -378,7 +378,7 @@ export function acerca({ prefix, freq, rep, curso, cambios, arbol }) {
     align: ["", "right", ""],
   });
 
-  return `<p>Radio España reúne en un solo sitio el material de escucha, la documentación de referencia y el temario del examen HAREC que antes vivían repartidos entre el repositorio, un espacio de Notion y hojas de cálculo sueltas.</p>
+  return `<p>Radio España reúne en un solo sitio el material de escucha, la documentación de referencia y el temario del examen HAREC que antes vivían repartidos entre varios documentos y hojas de cálculo sueltas.</p>
 
 <h2 class="md-h2">Qué contiene</h2>
 ${datos}

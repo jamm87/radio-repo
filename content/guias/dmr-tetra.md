@@ -1,6 +1,3 @@
-> **Origen:** página «Escucha digital: DMR y TETRA» del espacio de trabajo
-> Notion *RADIO://ES — Índice general*, consolidada aquí como fuente del sitio.
-
 # Escucha digital: DMR y TETRA
 
 Resumen de opciones para escuchar transmisiones digitales (DMR, TETRA) en bandas VHF/UHF.

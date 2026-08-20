@@ -385,11 +385,30 @@ img, svg { max-width: 100%; }
 .chip:hover, .chip:focus { box-shadow: inset 0 0 0 2px var(--theme-focused-foreground); outline: 0; }
 .chip[aria-pressed="true"] { background: var(--theme-focused-foreground); }
 
+/*
+  Sin tope de altura: la tabla fluye con la pagina y usa el unico scroll del
+  documento. Un max-height con overflow-y propio aqui creaba un segundo
+  scroll independiente (el de la caja) con mucho mas recorrido que el de la
+  pagina; al agotar el scroll interno, el navegador encadenaba el scroll
+  hacia la pagina, que apenas tenia recorrido, y saltaba de golpe al pie con
+  un hueco en blanco por medio.
+
+  overflow-x tampoco se deja puesto de forma permanente: cualquier valor de
+  overflow distinto de visible convierte al elemento en contenedor de scroll
+  para CSS (spec de "overflow pairing"), y eso es precisamente lo que ancla
+  el position:sticky del thead a ESTA caja en vez de a la pagina -- con
+  overflow-x:auto puesto, la cabecera pegajosa deja de pegarse al hacer
+  scroll y se pierde por arriba. Por eso el scroll horizontal solo se activa
+  por debajo de 64rem, donde ya no hay barra lateral y se prioriza que la
+  tabla quepa aunque se pierda la cabecera fija.
+*/
 .datatable-wrap {
-  overflow: auto;
-  max-height: 80vh;
   scrollbar-width: thin;
   box-shadow: inset 0 0 0 1px var(--theme-border);
+}
+
+@media (max-width: 63.9375rem) {
+  .datatable-wrap { overflow-x: auto; }
 }
 
 .datatable { width: 100%; border-collapse: collapse; text-align: left; }
@@ -404,7 +423,8 @@ img, svg { max-width: 100%; }
 
 .datatable thead th {
   position: sticky;
-  top: 0;
+  /* Justo debajo de la cabecera fija (una linea: font-size * line-height). */
+  top: calc(var(--font-size) * var(--theme-line-height-base));
   z-index: var(--z-index-page-select);
   background: var(--theme-border);
   text-transform: uppercase;

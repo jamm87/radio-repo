@@ -1,6 +1,3 @@
-> **Origen:** página «Diccionario de siglas y código Q» del espacio de trabajo
-> Notion *RADIO://ES — Índice general*, consolidada aquí como fuente del sitio.
-
 # Diccionario de siglas y código Q
 
 Referencia de siglas, abreviaturas y código Q de uso habitual en radioafición y escucha.

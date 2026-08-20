@@ -1,6 +1,3 @@
-> **Origen:** página «Enlaces de interés» del espacio de trabajo Notion
-> *RADIO://ES — Índice general*, consolidada aquí como fuente del sitio.
-
 # Enlaces de interés
 
 Recopilación de fuentes de referencia, directorios y comunidades útiles para radioescucha y
