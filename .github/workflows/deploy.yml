@@ -19,12 +19,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # Activa Pages en modo "GitHub Actions" si aun no lo esta. Sin este paso,
+      # deploy-pages falla con 404 (Not Found) porque el repositorio no tiene
+      # sitio de Pages creado y no hay nada contra lo que desplegar.
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
+
       - name: Build
         working-directory: site
         run: node scripts/build.js
+
+      # Red de seguridad: si el generador no escribe la portada, mejor parar
+      # aqui que publicar un sitio vacio.
+      - name: Check output
+        working-directory: site
+        run: test -f dist/index.html && test -f dist/data/frecuencias.json
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/dist
