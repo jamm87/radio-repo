@@ -24,7 +24,7 @@ SOFTWARE.
 Atribuciones de contenido de terceros
 -------------------------------------------------------------------------------
 
-El curso HAREC incluido en `curso/` es una adaptación del proyecto de código
+El curso HAREC incluido en `content/curso/` es una adaptación del proyecto de código
 abierto eaharec.com, distribuido bajo licencia MIT:
 
     Copyright (c) t00mas — https://github.com/t00mas/eaharec
@@ -32,6 +32,19 @@ abierto eaharec.com, distribuido bajo licencia MIT:
 El contenido original se reutiliza y adapta conforme a los términos de dicha
 licencia MIT. Todo el mérito del contenido original corresponde a sus autores.
 
-Los datos de frecuencias y planes de banda (en `radio-es-repo/`) proceden de
+El sistema de componentes de la web (`site/src/styles/sacred.css` y
+`site/src/lib/components.js`) es un port a CSS plano y a funciones de plantilla
+de SRCL / www-sacred, distribuido bajo licencia MIT:
+
+    Copyright (c) Internet Development Studio Company
+    https://github.com/internet-development/www-sacred
+
+Se conservan sus tokens de color, su rejilla tipográfica y la estructura de sus
+componentes conforme a los términos de dicha licencia MIT.
+
+Los datos de frecuencias y planes de banda (en `data/` y `docs/`) proceden de
 fuentes públicas (AIP de ENAIRE, CNAF, URE, IARU y otras citadas en la
 documentación); deben verificarse siempre contra las fuentes oficiales vigentes.
+
+La web carga Leaflet (BSD-2-Clause) desde unpkg.com para el mapa, sobre teselas
+de CARTO y datos de OpenStreetMap (ODbL).

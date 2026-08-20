@@ -1,75 +1,120 @@
-# RADIO://es — sitio web
+# Sitio web — Radio España
 
-Referencia abierta de radioescucha en España: frecuencias de **banda aérea, radioafición, PMR446, marítimo y utilidad**, repositorio de **SDR**, **mapa** y **generador de memorias para CHIRP**.
+Generador del sitio estático que publica todo el contenido del repositorio:
+frecuencias, repetidores, curso HAREC, plan de bandas, guías y referencia.
 
-Los datos se editan en una base de datos de **Notion** que actúa como CRM y se compilan a un sitio estático desplegable en **GitHub Pages**. Sin framework ni build pesado: HTML/CSS/JS puro con un pequeño script de Node. Interfaz monospace con **tema claro/oscuro** (sigue la preferencia del sistema, conmutable y persistente).
+Sin framework, sin bundler y sin dependencias: HTML, CSS y JS generados por un
+script de Node 18+.
 
-## Qué incluye y qué no
+## Uso
 
-Incluye solo **escucha pasiva** de frecuencias publicadas en fuentes oficiales o de bandas de uso común (AIP de ENAIRE, plan de bandas de radioaficionado, CNAF, PMR446/LPD433, marítimo VHF/AIS). **No** incluye canales tácticos de fuerzas de seguridad ni redes reservadas — el script de sync además los descarta por lista negra aunque aparecieran en Notion.
+```bash
+npm run build     # genera dist/
+npm run dev       # build + servidor en http://localhost:4173
+npm run serve     # solo servidor (sobre el dist ya generado)
+npm run sync      # actualiza ../data/frequencies.json desde Notion
+```
 
-Las frecuencias marcadas `AIP✓` están contrastadas con el AIP en vigor; el resto proceden de fuentes comunitarias y deben verificarse.
+> El explorador de frecuencias y el de repetidores cargan sus datos por `fetch`,
+> así que hay que **servir** `dist/` (con `npm run dev`), no abrir el HTML
+> directamente desde el disco.
 
 ## Estructura
 
-Este directorio es el componente web del monorepo; los datos viven en la raíz del repositorio:
-
 ```
-radio-repo/
-├── data/frequencies.json      # los datos (fuente de verdad del sitio)
-├── .github/workflows/
-│   ├── deploy.yml             # despliegue automático en GitHub Pages
-│   └── sync-notion.yml        # sync opcional desde Notion
-└── site/                      # ← este directorio
-    ├── src/template.html      # plantilla; el build inyecta el JSON
-    ├── scripts/
-    │   ├── build.js           # genera site/dist/index.html
-    │   ├── sync-notion.js     # actualiza data/frequencies.json desde Notion
-    │   └── serve.js           # servidor local de previsualización
-    ├── public/                # estáticos (favicon, CNAME opcional)
-    └── package.json
+site/
+├── src/
+│   ├── styles/
+│   │   ├── sacred.css     # SRCL (www-sacred) portado a CSS plano
+│   │   └── radio.css      # Capa del proyecto: layout y piezas propias
+│   ├── lib/
+│   │   ├── markdown.js    # Markdown -> HTML, sin dependencias
+│   │   ├── components.js  # Componentes SRCL como funciones que devuelven HTML
+│   │   ├── layout.js      # Armazón de página: nav, índice, TOC, pie
+│   │   └── data.js        # Normaliza los JSON de ../data y aplica la política
+│   ├── pages/paginas.js   # Constructores del cuerpo de cada página
+│   └── client/
+│       ├── app.js         # Tema claro/oscuro, tintes, índice plegable
+│       └── explorador.js  # Filtros, orden, selección, mapa y export CHIRP
+├── scripts/
+│   ├── build.js           # Orquesta todo y escribe dist/
+│   └── serve.js           # Servidor local con índices de directorio
+└── public/                # favicon, CNAME opcional
 ```
 
-## Uso local
+## Qué genera
+
+`dist/` con 34 páginas de URL limpia (`/curso/parte1/tema1/`), los estilos y el
+cliente en `dist/assets/`, los datos en `dist/data/*.json`, más `404.html`,
+`sitemap.xml`, `robots.txt` y `.nojekyll`.
+
+La URL base del sitemap se puede fijar al compilar:
 
 ```bash
-cd site
-npm run build     # genera site/dist/
-npm run dev       # build + servidor en http://localhost:4173
+SITE_URL=https://ejemplo.org node scripts/build.js
 ```
 
-No hace falta instalar dependencias: todo usa Node 18+ nativo.
+## Cómo se añade contenido
+
+1. **Una página nueva de texto:** crea el Markdown en `content/` y añádelo a la
+   lista correspondiente (`GUIAS` o `REFERENCIA`) en `scripts/build.js`. El
+   índice lateral, las migas, el índice de la sección y el mapa de enlaces se
+   generan solos.
+2. **Un tema nuevo del curso:** basta con crear
+   `content/curso/parteN/temaM.md`; el build descubre los ficheros, ordena por
+   número y encadena la navegación anterior/siguiente.
+3. **Enlaces entre documentos:** escríbelos como rutas relativas a ficheros
+   `.md`; el build las reescribe a las URLs del sitio.
+
+## Sistema de componentes
+
+`src/styles/sacred.css` es un port a CSS plano de
+[SRCL / www-sacred](https://github.com/internet-development/www-sacred) (MIT).
+Al tocarlo conviene respetar dos reglas del sistema original:
+
+- La rejilla horizontal se mide en `ch` y la vertical en múltiplos de
+  `calc(var(--theme-line-height-base) * 1rem)`. Nunca en píxeles sueltos.
+- Los colores salen de la paleta ANSI (`--ansi-*`) y se consumen siempre a
+  través de los tokens `--theme-*`.
+
+A diferencia del original, que pone las clases de tema en `<body>`, aquí van en
+`<html>` para poder aplicarlas antes del primer pintado y evitar el parpadeo.
+
+## Tema y tinte
+
+El tema se resuelve en el `<head>`: la elección guardada en `localStorage`
+(`radio-theme`) o, si no hay ninguna, `prefers-color-scheme`, que además se
+sigue en vivo. El conmutador `◐` de la cabecera lo cambia y lo persiste. Los
+siete tintes OKLCH del sistema se eligen con las muestras de color y se guardan
+en `radio-tint`.
+
+## Datos
+
+`src/lib/data.js` lee `../data/frequencies.json` (curadas) y
+`../data/frecuencias.json` (ampliadas), descarta lo no publicable y las
+categorías de seguridad y defensa, unifica categorías, deduce la banda a partir
+de la frecuencia y deduplica. De `../data/repetidores_balizas_ure.json` convierte
+además el locator Maidenhead a coordenadas para el mapa.
 
 ## Desplegar en GitHub Pages
 
-1. En **Settings → Pages**, elige **Source: GitHub Actions**.
-2. Cada push a `main` reconstruye y publica el sitio con el workflow `deploy.yml` (raíz del repo).
+1. **Settings → Pages**, elige **Source: GitHub Actions**.
+2. Cada push a `main` reconstruye y publica con `.github/workflows/deploy.yml`.
 
-Para dominio propio, crea `site/public/CNAME` con tu dominio.
+Para dominio propio, crea `public/CNAME` con tu dominio.
 
 ## Sincronizar desde Notion
 
-El sitio funciona con el snapshot de `data/frequencies.json` sin tocar Notion. Para traer cambios hechos en Notion:
-
 ```bash
-NOTION_TOKEN=secret_xxx node site/scripts/sync-notion.js
-cd site && npm run build
+NOTION_TOKEN=secret_xxx node scripts/sync-notion.js
+npm run build
 ```
 
-Necesitas una **integración interna de Notion** con acceso a la base de datos "radio". El data source id ya viene por defecto; se puede cambiar con `NOTION_DATA_SOURCE_ID`. Para automatizarlo, añade `NOTION_TOKEN` como secret del repositorio y usa el workflow `sync-notion.yml`.
-
-## Tema claro/oscuro
-
-El tema se resuelve antes del primer pintado: `localStorage("theme")` si el usuario eligió uno con el botón `◐` de la cabecera; si no, la preferencia del sistema (`prefers-color-scheme`), siguiéndola en vivo si cambia. Los dos juegos de tokens viven en `:root[data-theme=dark|light]` dentro de `src/template.html`; el mapa cambia de tiles (CARTO dark/light) al conmutar.
-
-## Generador CHIRP
-
-Selecciona frecuencias (o un preset: banda aérea, radioafición, PMR446 ×16, marítimo) y descarga un CSV en el formato genérico de CHIRP: nombre normalizado, modo, paso automático (AM 25 kHz / NFM 12.5 kHz) y notas en el comentario. En CHIRP: **Archivo → Importar**.
-
-## Mapa
-
-El botón *mapa* carga Leaflet bajo demanda y sitúa las entradas con coordenadas (aeropuertos, repetidores, radiofaros) sobre tiles acordes al tema activo. Respeta los filtros activos. Las coordenadas son aproximadas y solo sirven para situar la estación.
+Necesitas una integración interna de Notion con acceso a la base de datos
+«radio». El data source id viene por defecto; se cambia con
+`NOTION_DATA_SOURCE_ID`.
 
 ## Licencia
 
-MIT para el código. Los datos de frecuencias proceden de fuentes públicas citadas; verifica siempre contra el AIP/CNAF en vigor.
+MIT para el código. Los datos proceden de fuentes públicas citadas; verifica
+siempre contra el AIP y el CNAF en vigor.

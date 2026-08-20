@@ -2,7 +2,7 @@
 
 Proyecto de referencia de **radioescucha en España**: frecuencias de banda aérea, radioafición, PMR446, marítimo y utilidad; repositorio de SDR; generador de memorias CHIRP; y documentación del plan de bandas y los repetidores nacionales.
 
-El contenido se edita en una base de datos de **Notion** (que actúa como CRM) y se publica como sitio estático en **GitHub Pages**.
+Los datos se editan en una base de datos de **Notion** (que actúa como CRM) y el contenido en Markdown vive en `content/`; todo se publica como sitio estático en **GitHub Pages**.
 
 ---
 
@@ -13,8 +13,17 @@ El contenido se edita en una base de datos de **Notion** (que actúa como CRM) y
 
 ```
 radio-repo/
+├── content/                     # Contenido en Markdown (fuente del sitio)
+│   ├── curso/                   #   Temario HAREC, 19 temas
+│   ├── guias/                   #   Guías de escucha
+│   ├── referencia/              #   Código Q y siglas
+│   └── enlaces.md               #   Directorio de fuentes
+│
 ├── site/                        # Sitio web desplegable (GitHub Pages)
-│   ├── src/template.html        # Plantilla; el build inyecta los datos
+│   ├── src/styles/              # sacred.css (SRCL) + radio.css
+│   ├── src/lib/                 # markdown, componentes, layout, datos
+│   ├── src/pages/               # constructores de página
+│   ├── src/client/              # tema y explorador
 │   ├── scripts/                 # build.js, sync-notion.js, serve.js
 │   ├── public/                  # favicon, CNAME opcional
 │   └── package.json
@@ -41,7 +50,7 @@ radio-repo/
 
 ### 1. Web (`site/`)
 
-Sitio estático en HTML/CSS/JS puro, sin framework. Incluye buscador, filtros (categoría, banda, zona, modo, estado), mapa Leaflet opcional y **generador de memorias CHIRP** (con presets de banda aérea, radioafición, PMR446 y marítimo). Estética monospace tipo pantalla de escáner, con tema claro/oscuro.
+Sitio estático de 34 páginas generado por un script de Node sin dependencias. Publica el contenido Markdown de `content/` y los conjuntos de datos de `data/`, con índice lateral común, buscador, filtros por facetas (categoría, banda, zona, modo), mapa Leaflet bajo demanda y **generador de memorias CHIRP**. La interfaz usa [SRCL / www-sacred](https://github.com/internet-development/www-sacred) (MIT) como sistema de componentes, portado a CSS plano, con temas claro y oscuro y tintes OKLCH.
 
 ```bash
 cd site
