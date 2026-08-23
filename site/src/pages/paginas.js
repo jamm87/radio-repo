@@ -179,8 +179,9 @@ ${card({
 
   return `<section id="${escapeHtml(id)}">
   <div class="toolbar">
-    <div class="toolbar__wide">
-      <input class="sacred-input js-search" type="search" placeholder="${escapeHtml(searchPlaceholder)}" aria-label="Buscar" />
+    <div class="toolbar__wide search-input-wrapper">
+      <input class="sacred-input js-search" type="search" placeholder="${escapeHtml(searchPlaceholder)}" aria-label="Buscar" autocomplete="off" />
+      <div class="js-suggestions search-suggestions" role="listbox" aria-label="Sugerencias de búsqueda" style="display: none;"></div>
     </div>
     ${selects.map((s) => toolbarSelect(s.field, s.label)).join("")}
   </div>

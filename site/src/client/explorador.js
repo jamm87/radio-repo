@@ -39,6 +39,57 @@
     };
   }
 
+  function buildSuggestions(items, config) {
+    var suggestions = [];
+    var seen = new Set();
+
+    // Collect unique names
+    items.forEach(function (item) {
+      var name = config.label(item);
+      var key = norm(name);
+      if (name && !seen.has(key)) {
+        seen.add(key);
+        suggestions.push({ text: name, type: "name", key: key });
+      }
+    });
+
+    // Collect unique categories (first select field is usually category)
+    if (config.selects && config.selects.length > 0) {
+      var categoryField = config.selects[0].field;
+      var categorySeen = new Set();
+      items.forEach(function (item) {
+        var cat = item[categoryField];
+        if (cat && !categorySeen.has(cat)) {
+          categorySeen.add(cat);
+          suggestions.push({ text: cat, type: "category", key: norm(cat) });
+        }
+      });
+    }
+
+    // Collect unique bands (second select field is usually band)
+    if (config.selects && config.selects.length > 1) {
+      var bandField = config.selects[1].field;
+      var bandSeen = new Set();
+      items.forEach(function (item) {
+        var band = item[bandField];
+        if (band && !bandSeen.has(band)) {
+          bandSeen.add(band);
+          suggestions.push({ text: band, type: "band", key: norm(band) });
+        }
+      });
+    }
+
+    return suggestions;
+  }
+
+  function filterSuggestions(query, suggestions, limit) {
+    if (!query) return [];
+    var filtered = suggestions.filter(function (s) {
+      return s.key.indexOf(query) !== -1;
+    });
+    return filtered.slice(0, limit || 8);
+  }
+
   function fillSelect(select, values, label) {
     if (!select) return;
     var options = ['<option value="">' + esc(label) + "</option>"];
@@ -234,6 +285,8 @@
       filters: {},
       onlyVerified: false,
       onlySelected: false,
+      suggestionIndex: [],
+      suggestionFocused: -1,
     };
 
     var mapApi = createMap($(".js-map"));
@@ -347,16 +400,132 @@
       });
     }
 
+    function updateSuggestionFocus(items) {
+      items.forEach(function (item, idx) {
+        if (idx === state.suggestionFocused) {
+          item.classList.add("focused");
+          item.setAttribute("aria-selected", "true");
+          item.scrollIntoView({ block: "nearest" });
+        } else {
+          item.classList.remove("focused");
+          item.setAttribute("aria-selected", "false");
+        }
+      });
+    }
+
+    function showSuggestions(suggestions) {
+      var suggestionList = $(".js-suggestions");
+      if (!suggestionList) return;
+
+      if (!suggestions || suggestions.length === 0) {
+        suggestionList.style.display = "none";
+        return;
+      }
+
+      var html = suggestions.map(function (s, idx) {
+        var icon = s.type === "name" ? "◯" : s.type === "category" ? "◆" : "■";
+        return '<div class="js-suggestion-item" data-index="' + idx + '" role="option">' +
+          '<span class="suggestion-icon">' + icon + '</span>' +
+          '<span class="suggestion-text">' + esc(s.text) + '</span>' +
+          '</div>';
+      }).join("");
+
+      suggestionList.innerHTML = html;
+      suggestionList.style.display = "block";
+      state.suggestionFocused = -1;
+
+      suggestionList.querySelectorAll(".js-suggestion-item").forEach(function (item) {
+        item.addEventListener("click", function () {
+          var idx = parseInt(item.dataset.index, 10);
+          if (idx >= 0 && idx < suggestions.length) {
+            selectSuggestion(suggestions[idx], search, suggestionList);
+          }
+        });
+      });
+    }
+
+    function selectSuggestion(suggestion, searchEl, suggestionList) {
+      searchEl.value = suggestion.text;
+      state.filters.q = norm(suggestion.text);
+      suggestionList.style.display = "none";
+      render();
+    }
+
+    function hideSuggestions() {
+      var suggestionList = $(".js-suggestions");
+      if (suggestionList) suggestionList.style.display = "none";
+      state.suggestionFocused = -1;
+    }
+
     function bind() {
       var search = $(".js-search");
       if (search) {
-        search.addEventListener(
-          "input",
-          debounce(function () {
-            state.filters.q = norm(search.value.trim());
-            render();
-          }, 120)
-        );
+        var debouncedSearch = debounce(function () {
+          var query = norm(search.value.trim());
+          state.filters.q = query;
+
+          if (query && state.suggestionIndex.length > 0) {
+            var filtered = filterSuggestions(query, state.suggestionIndex);
+            showSuggestions(filtered);
+          } else {
+            hideSuggestions();
+          }
+
+          render();
+        }, 120);
+
+        search.addEventListener("input", debouncedSearch);
+
+        search.addEventListener("keydown", function (e) {
+          var suggestionList = $(".js-suggestions");
+          if (!suggestionList || suggestionList.style.display === "none") {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              render();
+            }
+            return;
+          }
+
+          var items = suggestionList.querySelectorAll(".js-suggestion-item");
+          if (e.key === "ArrowDown") {
+            e.preventDefault();
+            state.suggestionFocused = Math.min(state.suggestionFocused + 1, items.length - 1);
+            updateSuggestionFocus(items);
+          } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            state.suggestionFocused = Math.max(state.suggestionFocused - 1, -1);
+            updateSuggestionFocus(items);
+          } else if (e.key === "Enter") {
+            e.preventDefault();
+            if (state.suggestionFocused >= 0 && state.suggestionFocused < items.length) {
+              var idx = parseInt(items[state.suggestionFocused].dataset.index, 10);
+              var filtered = filterSuggestions(state.filters.q, state.suggestionIndex);
+              if (idx >= 0 && idx < filtered.length) {
+                selectSuggestion(filtered[idx], search, suggestionList);
+              }
+            } else {
+              hideSuggestions();
+              render();
+            }
+          } else if (e.key === "Escape") {
+            e.preventDefault();
+            hideSuggestions();
+          }
+        });
+
+        search.addEventListener("focus", function () {
+          var query = norm(search.value.trim());
+          if (query && state.suggestionIndex.length > 0) {
+            var filtered = filterSuggestions(query, state.suggestionIndex);
+            if (filtered.length > 0) showSuggestions(filtered);
+          }
+        });
+
+        search.addEventListener("blur", function () {
+          setTimeout(function () {
+            hideSuggestions();
+          }, 200);
+        });
       }
 
       config.selects.forEach(function (select) {
@@ -503,6 +672,7 @@
       .then(function (payload) {
         state.items = config.extract(payload);
         config.facets = payload.facetas || {};
+        state.suggestionIndex = buildSuggestions(state.items, config);
         readUrl();
         bind();
         if (statusEl) statusEl.textContent = "";
