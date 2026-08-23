@@ -352,6 +352,7 @@
 
       if (countEl) countEl.textContent = String(state.filtered.length);
       updateSelectionInfo();
+      updateFilterChips();
       syncUrl();
     }
 
@@ -365,7 +366,49 @@
         toggleAll.checked = selectable.length > 0 && selectable.every(function (item) {
           return state.selected.has(key(item));
         });
+        if (selectable.length > 0) {
+          toggleAll.title = state.selected.size + " de " + selectable.length + " seleccionados";
+        }
       }
+    }
+
+    function updateFilterChips() {
+      var filterChipsEl = $(".js-filter-chips");
+      if (!filterChipsEl) return;
+
+      var activeFilters = [];
+      config.selects.forEach(function (select) {
+        var value = state.filters[select.field];
+        if (value) {
+          activeFilters.push({ field: select.field, label: select.label, value: value });
+        }
+      });
+
+      if (activeFilters.length === 0) {
+        filterChipsEl.style.display = "none";
+        filterChipsEl.innerHTML = "";
+        return;
+      }
+
+      filterChipsEl.style.display = "flex";
+      var html = activeFilters.map(function (filter) {
+        return '<span class="filter-chip">' +
+          esc(filter.value) +
+          '<button class="filter-chip__remove" data-field="' + esc(filter.field) + '" aria-label="Eliminar filtro ' + esc(filter.value) + '">×</button>' +
+          '</span>';
+      }).join("");
+
+      filterChipsEl.innerHTML = html;
+
+      filterChipsEl.querySelectorAll(".filter-chip__remove").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var field = btn.dataset.field;
+          state.filters[field] = "";
+          var select = root.querySelector('[data-field="' + field + '"]');
+          if (select) select.value = "";
+          render();
+        });
+      });
     }
 
     function syncUrl() {
@@ -642,9 +685,11 @@
           mapButton.setAttribute("aria-pressed", String(open));
           container.setAttribute("aria-hidden", String(!open));
           if (!open) return;
+          container.innerHTML = '<div class="map-loading" role="status">Cargando mapa…</div>';
           mapApi
             .ensure()
             .then(function () {
+              container.innerHTML = "";
               mapApi.draw(
                 state.filtered
                   .filter(function (item) {

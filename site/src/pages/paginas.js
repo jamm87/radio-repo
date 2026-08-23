@@ -169,9 +169,9 @@ ${card({
     ${chirp.presets.map((preset) => `<button class="chip" type="button" data-preset="${escapeHtml(preset.id)}">${escapeHtml(preset.label)}</button>`).join("")}
   </div>
   <div class="chips" style="margin-top:calc(var(--theme-line-height-base) * 0.5rem)">
-    <span class="mono-dim">seleccionadas: <strong class="js-selected">0</strong></span>
+    <span class="mono-dim"><strong class="js-selected">0</strong> seleccionadas</span>
     ${actionButton({ hotkey: "▤", label: "Ver CSV", id: "", dataset: {} }).replace('class="sacred-action-button"', 'class="sacred-action-button js-preview"')}
-    ${actionButton({ hotkey: "⬇", label: "Descargar CSV" }).replace('class="sacred-action-button"', 'class="sacred-action-button js-csv"')}
+    ${actionButton({ hotkey: "⬇", label: "Descargar CSV (sel.)" }).replace('class="sacred-action-button"', 'class="sacred-action-button js-csv"')}
   </div>
   <pre class="csv-preview js-csv-preview" aria-live="polite"></pre>`,
 })}`
@@ -180,11 +180,17 @@ ${card({
   return `<section id="${escapeHtml(id)}">
   <div class="toolbar">
     <div class="toolbar__wide search-input-wrapper">
-      <input class="sacred-input js-search" type="search" placeholder="${escapeHtml(searchPlaceholder)}" aria-label="Buscar" autocomplete="off" />
+      <label for="search-input" class="search-label">Buscar</label>
+      <input id="search-input" class="sacred-input js-search" type="search" placeholder="${escapeHtml(searchPlaceholder)}" aria-label="Buscar" autocomplete="off" />
       <div class="js-suggestions search-suggestions" role="listbox" aria-label="Sugerencias de búsqueda" style="display: none;"></div>
     </div>
-    ${selects.map((s) => toolbarSelect(s.field, s.label)).join("")}
+    <div class="filters-group">
+      <span class="filter-label">Filtros</span>
+      ${selects.map((s) => toolbarSelect(s.field, s.label)).join("")}
+    </div>
   </div>
+
+  <div class="js-filter-chips" style="display: none; margin-top:calc(var(--theme-line-height-base) * 0.5rem)"></div>
 
   <div class="chips" style="margin-top:calc(var(--theme-line-height-base) * 0.5rem)">
     ${chips.join("")}
