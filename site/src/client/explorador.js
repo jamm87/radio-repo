@@ -39,6 +39,11 @@
     };
   }
 
+  // Clave de orden por defecto: no es una columna, es un ranking por banda.
+  // Ordenar por MHz ascendente enterraba lo que casi todo el mundo busca
+  // (VHF/UHF de radioaficion, banda aerea) bajo 150 entradas de LF/VLF.
+  var REL = "__rel";
+
   function buildSuggestions(items, config) {
     var suggestions = [];
     var seen = new Set();
@@ -281,15 +286,18 @@
       items: [],
       filtered: [],
       selected: new Set(),
-      sort: { key: "f", dir: 1 },
+      sort: { key: REL, dir: 1 },
       filters: {},
       onlyVerified: false,
       onlySelected: false,
       suggestionIndex: [],
+      suggestionShown: [],
       suggestionFocused: -1,
     };
 
     var mapApi = createMap($(".js-map"));
+    var searchEl = $(".js-search");
+    var suggestionsEl = $(".js-suggestions");
     var statusEl = $(".js-status");
     var bodyEl = $(".js-tbody");
     var countEl = $(".js-count");
@@ -315,6 +323,12 @@
     }
 
     function applySort(rows) {
+      if (state.sort.key === REL) {
+        var rank = config.relevance || function () { return 0; };
+        return rows.slice().sort(function (a, b) {
+          return (rank(a) - rank(b)) || ((a.f == null ? Infinity : a.f) - (b.f == null ? Infinity : b.f));
+        });
+      }
       var column = config.columns.find(function (c) {
         return c.field === state.sort.key;
       });
@@ -332,7 +346,7 @@
 
       if (!state.filtered.length) {
         bodyEl.innerHTML =
-          '<tr><td colspan="' + (config.columns.length + 1) + '"><div class="empty-state">Sin resultados para este filtro.</div></td></tr>';
+          '<tr><td colspan="' + (config.columns.length + 1) + '">' + emptyStateHtml() + "</td></tr>";
       } else {
         var html = new Array(state.filtered.length);
         for (var i = 0; i < state.filtered.length; i++) {
@@ -351,9 +365,125 @@
       }
 
       if (countEl) countEl.textContent = String(state.filtered.length);
+      announceCount(state.filtered.length);
       updateSelectionInfo();
       updateFilterChips();
+      syncSortIndicators();
       syncUrl();
+    }
+
+    /*
+      El contador visible se actualiza en cada tecla, pero anunciarlo igual de
+      rapido convierte la region viva en ruido. Se anuncia cuando el usuario
+      deja de escribir: el lector dice "312 resultados" una vez, no una por
+      pulsacion.
+    */
+    var announceCount = debounce(function (total) {
+      var live = $(".js-count-live");
+      if (live) live.textContent = total + (total === 1 ? " resultado" : " resultados");
+    }, 500);
+
+    function syncSortIndicators() {
+      root.querySelectorAll("th[data-sort]").forEach(function (th) {
+        var on = th.dataset.sort === state.sort.key;
+        th.setAttribute("aria-sort", on ? (state.sort.dir === 1 ? "ascending" : "descending") : "none");
+        var button = th.querySelector("[data-sort-btn]");
+        if (button) button.classList.toggle("is-sorted", on);
+        var dir = th.querySelector(".datatable__dir");
+        if (dir) dir.textContent = on ? (state.sort.dir === 1 ? "▲" : "▼") : "";
+      });
+
+      // Con el orden por relevancia no hay columna activa, asi que la tabla
+      // por si sola no puede decir como esta ordenada: se dice aqui.
+      var note = $(".js-sortnote");
+      if (!note) return;
+      if (state.sort.key === REL) {
+        note.textContent = "· orden: relevancia";
+      } else {
+        var column = config.columns.find(function (c) {
+          return c.field === state.sort.key;
+        });
+        note.textContent = "· orden: " + (column ? column.label : state.sort.key) +
+          (state.sort.dir === 1 ? " ascendente" : " descendente");
+      }
+    }
+
+    /*
+      "Sin resultados para este filtro" deja al usuario adivinando cual de los
+      cuatro filtros tiene la culpa. Aqui se nombran los activos y se ofrece
+      quitarlos uno a uno, que es la salida que hace falta.
+    */
+    function emptyStateHtml() {
+      var active = [];
+      if (state.filters.q) {
+        active.push({ kind: "q", label: "búsqueda", value: searchEl ? searchEl.value.trim() : state.filters.q });
+      }
+      config.selects.forEach(function (select) {
+        if (state.filters[select.field]) {
+          active.push({
+            kind: "select",
+            field: select.field,
+            label: select.label.split(":")[0],
+            value: state.filters[select.field],
+          });
+        }
+      });
+      if (state.onlyVerified) active.push({ kind: "verified", label: "solo verificadas", value: "" });
+      if (state.onlySelected) active.push({ kind: "selected", label: "solo seleccionadas", value: "" });
+
+      if (!active.length) return '<div class="empty-state">No hay datos que mostrar.</div>';
+
+      var described = active.map(function (item) {
+        return item.value ? esc(item.label) + " «" + esc(item.value) + "»" : esc(item.label);
+      });
+      var buttons = active.map(function (item) {
+        var attr = item.kind === "select"
+          ? ' data-clear-field="' + esc(item.field) + '"'
+          : ' data-clear="' + esc(item.kind) + '"';
+        return '<button class="chip js-clear-one" type="button"' + attr + ">Quitar " + esc(item.label) + "</button>";
+      });
+      if (active.length > 1) buttons.push('<button class="chip js-reset" type="button">Limpiar todo</button>');
+
+      return '<div class="empty-state"><p>Sin resultados con ' + described.join(" + ") + ".</p>" +
+        '<div class="chips empty-state__actions">' + buttons.join("") + "</div></div>";
+    }
+
+    function clearFilter(kind, field) {
+      if (kind === "select") {
+        state.filters[field] = "";
+        var select = root.querySelector('[data-field="' + field + '"]');
+        if (select) select.value = "";
+      } else if (kind === "q") {
+        state.filters.q = "";
+        if (searchEl) searchEl.value = "";
+        hideSuggestions();
+      } else if (kind === "verified") {
+        state.onlyVerified = false;
+        var verified = $(".js-verified");
+        if (verified) verified.setAttribute("aria-pressed", "false");
+      } else if (kind === "selected") {
+        state.onlySelected = false;
+        var onlySelected = $(".js-only-selected");
+        if (onlySelected) onlySelected.setAttribute("aria-pressed", "false");
+      }
+      render();
+    }
+
+    function resetAll() {
+      state.filters = {};
+      state.onlyVerified = false;
+      state.onlySelected = false;
+      state.sort = { key: REL, dir: 1 };
+      if (searchEl) searchEl.value = "";
+      hideSuggestions();
+      root.querySelectorAll("select[data-field]").forEach(function (el) {
+        el.value = "";
+      });
+      root.querySelectorAll('[aria-pressed="true"]').forEach(function (el) {
+        if (el.classList.contains("tint-swatch")) return;
+        el.setAttribute("aria-pressed", "false");
+      });
+      render();
     }
 
     function updateSelectionInfo() {
@@ -427,8 +557,7 @@
       var params = new URLSearchParams(window.location.search);
       if (params.get("q")) {
         state.filters.q = norm(params.get("q"));
-        var search = $(".js-search");
-        if (search) search.value = params.get("q");
+        if (searchEl) searchEl.value = params.get("q");
       }
       config.selects.forEach(function (select) {
         var value = params.get(select.field);
@@ -443,132 +572,153 @@
       });
     }
 
+    /*
+      El foco nunca sale del input: el lector de pantalla sigue la opcion
+      resaltada por aria-activedescendant. Sin ese atributo, mover las flechas
+      cambiaba el resaltado visual y no anunciaba nada, con el agravante de que
+      la lista si declara role="listbox" y por tanto se anuncia como existente.
+    */
     function updateSuggestionFocus(items) {
-      items.forEach(function (item, idx) {
-        if (idx === state.suggestionFocused) {
-          item.classList.add("focused");
-          item.setAttribute("aria-selected", "true");
-          item.scrollIntoView({ block: "nearest" });
-        } else {
-          item.classList.remove("focused");
-          item.setAttribute("aria-selected", "false");
-        }
+      items.forEach(function (item, index) {
+        var on = index === state.suggestionFocused;
+        item.classList.toggle("focused", on);
+        item.setAttribute("aria-selected", String(on));
+        if (on) item.scrollIntoView({ block: "nearest" });
       });
+      if (!searchEl) return;
+      var current = items[state.suggestionFocused];
+      if (current) searchEl.setAttribute("aria-activedescendant", current.id);
+      else searchEl.removeAttribute("aria-activedescendant");
     }
 
-    function showSuggestions(suggestions) {
-      var suggestionList = $(".js-suggestions");
-      if (!suggestionList) return;
+    var SUGGESTION_TYPES = {
+      name: { icon: "◯", label: "nombre" },
+      category: { icon: "◆", label: "categoría" },
+      band: { icon: "■", label: "banda" },
+    };
 
-      if (!suggestions || suggestions.length === 0) {
-        suggestionList.style.display = "none";
+    function showSuggestions(suggestions) {
+      if (!suggestionsEl) return;
+      if (!suggestions || !suggestions.length) {
+        hideSuggestions();
         return;
       }
 
-      var html = suggestions.map(function (s, idx) {
-        var icon = s.type === "name" ? "◯" : s.type === "category" ? "◆" : "■";
-        return '<div class="js-suggestion-item" data-index="' + idx + '" role="option">' +
-          '<span class="suggestion-icon">' + icon + '</span>' +
-          '<span class="suggestion-text">' + esc(s.text) + '</span>' +
-          '</div>';
-      }).join("");
+      suggestionsEl.innerHTML = suggestions
+        .map(function (suggestion, index) {
+          var type = SUGGESTION_TYPES[suggestion.type] || SUGGESTION_TYPES.name;
+          return '<div class="js-suggestion-item" role="option" aria-selected="false" id="sug-' +
+            index + '" data-index="' + index + '">' +
+            '<span class="suggestion-icon" aria-hidden="true">' + type.icon + "</span>" +
+            '<span class="suggestion-text">' + esc(suggestion.text) + "</span>" +
+            '<span class="suggestion-type">' + type.label + "</span>" +
+            "</div>";
+        })
+        .join("");
 
-      suggestionList.innerHTML = html;
-      suggestionList.style.display = "block";
+      suggestionsEl.style.display = "block";
+      state.suggestionShown = suggestions;
       state.suggestionFocused = -1;
+      if (searchEl) {
+        searchEl.setAttribute("aria-expanded", "true");
+        searchEl.removeAttribute("aria-activedescendant");
+      }
 
-      suggestionList.querySelectorAll(".js-suggestion-item").forEach(function (item) {
+      suggestionsEl.querySelectorAll(".js-suggestion-item").forEach(function (item) {
+        // mousedown + preventDefault mantiene el foco en el input, asi que el
+        // click llega antes de que focusout cierre la lista. Sustituye al
+        // temporizador sobre blur, fragil por los dos lados: corto perdia el
+        // click, largo dejaba la lista colgada.
+        item.addEventListener("mousedown", function (event) {
+          event.preventDefault();
+        });
         item.addEventListener("click", function () {
-          var idx = parseInt(item.dataset.index, 10);
-          if (idx >= 0 && idx < suggestions.length) {
-            selectSuggestion(suggestions[idx], search, suggestionList);
-          }
+          var chosen = state.suggestionShown[Number(item.dataset.index)];
+          if (chosen) selectSuggestion(chosen);
         });
       });
     }
 
-    function selectSuggestion(suggestion, searchEl, suggestionList) {
-      searchEl.value = suggestion.text;
+    function selectSuggestion(suggestion) {
+      if (searchEl) searchEl.value = suggestion.text;
       state.filters.q = norm(suggestion.text);
-      suggestionList.style.display = "none";
+      hideSuggestions();
       render();
     }
 
     function hideSuggestions() {
-      var suggestionList = $(".js-suggestions");
-      if (suggestionList) suggestionList.style.display = "none";
+      if (suggestionsEl) suggestionsEl.style.display = "none";
+      state.suggestionShown = [];
       state.suggestionFocused = -1;
+      if (searchEl) {
+        searchEl.setAttribute("aria-expanded", "false");
+        searchEl.removeAttribute("aria-activedescendant");
+      }
+    }
+
+    function suggestionsOpen() {
+      return !!suggestionsEl && suggestionsEl.style.display !== "none" && state.suggestionShown.length > 0;
     }
 
     function bind() {
-      var search = $(".js-search");
-      if (search) {
-        var debouncedSearch = debounce(function () {
-          var query = norm(search.value.trim());
+      if (searchEl) {
+        var runSearch = debounce(function () {
+          var query = norm(searchEl.value.trim());
           state.filters.q = query;
-
-          if (query && state.suggestionIndex.length > 0) {
-            var filtered = filterSuggestions(query, state.suggestionIndex);
-            showSuggestions(filtered);
-          } else {
-            hideSuggestions();
-          }
-
+          if (query && state.suggestionIndex.length) showSuggestions(filterSuggestions(query, state.suggestionIndex));
+          else hideSuggestions();
           render();
         }, 120);
 
-        search.addEventListener("input", debouncedSearch);
+        searchEl.addEventListener("input", runSearch);
 
-        search.addEventListener("keydown", function (e) {
-          var suggestionList = $(".js-suggestions");
-          if (!suggestionList || suggestionList.style.display === "none") {
-            if (e.key === "Enter") {
-              e.preventDefault();
-              render();
+        searchEl.addEventListener("keydown", function (event) {
+          if (!suggestionsOpen()) {
+            // Sin lista abierta, Escape limpia la busqueda: es el gesto que ya
+            // se espera de un campo de tipo search.
+            if (event.key === "Escape" && searchEl.value) {
+              event.preventDefault();
+              clearFilter("q");
             }
             return;
           }
 
-          var items = suggestionList.querySelectorAll(".js-suggestion-item");
-          if (e.key === "ArrowDown") {
-            e.preventDefault();
+          var items = suggestionsEl.querySelectorAll(".js-suggestion-item");
+          if (event.key === "ArrowDown") {
+            event.preventDefault();
             state.suggestionFocused = Math.min(state.suggestionFocused + 1, items.length - 1);
             updateSuggestionFocus(items);
-          } else if (e.key === "ArrowUp") {
-            e.preventDefault();
+          } else if (event.key === "ArrowUp") {
+            event.preventDefault();
             state.suggestionFocused = Math.max(state.suggestionFocused - 1, -1);
             updateSuggestionFocus(items);
-          } else if (e.key === "Enter") {
-            e.preventDefault();
-            if (state.suggestionFocused >= 0 && state.suggestionFocused < items.length) {
-              var idx = parseInt(items[state.suggestionFocused].dataset.index, 10);
-              var filtered = filterSuggestions(state.filters.q, state.suggestionIndex);
-              if (idx >= 0 && idx < filtered.length) {
-                selectSuggestion(filtered[idx], search, suggestionList);
-              }
-            } else {
-              hideSuggestions();
-              render();
-            }
-          } else if (e.key === "Escape") {
-            e.preventDefault();
+          } else if (event.key === "Enter") {
+            // Sin nada resaltado, Enter busca lo escrito en vez de elegir la
+            // primera sugerencia: robar el Enter sorprende al usuario.
+            event.preventDefault();
+            var chosen = state.suggestionShown[state.suggestionFocused];
+            if (chosen) selectSuggestion(chosen);
+            else hideSuggestions();
+          } else if (event.key === "Escape") {
+            event.preventDefault();
             hideSuggestions();
           }
         });
 
-        search.addEventListener("focus", function () {
-          var query = norm(search.value.trim());
-          if (query && state.suggestionIndex.length > 0) {
-            var filtered = filterSuggestions(query, state.suggestionIndex);
-            if (filtered.length > 0) showSuggestions(filtered);
-          }
+        searchEl.addEventListener("focus", function () {
+          var query = norm(searchEl.value.trim());
+          if (query && state.suggestionIndex.length) showSuggestions(filterSuggestions(query, state.suggestionIndex));
         });
 
-        search.addEventListener("blur", function () {
-          setTimeout(function () {
-            hideSuggestions();
-          }, 200);
-        });
+        var wrapper = $(".search-input-wrapper");
+        if (wrapper) {
+          wrapper.addEventListener("focusout", function (event) {
+            if (!wrapper.contains(event.relatedTarget)) hideSuggestions();
+          });
+          document.addEventListener("mousedown", function (event) {
+            if (!wrapper.contains(event.target)) hideSuggestions();
+          });
+        }
       }
 
       config.selects.forEach(function (select) {
@@ -599,15 +749,15 @@
         }
       });
 
-      root.querySelectorAll("[data-sort]").forEach(function (th) {
-        th.addEventListener("click", function () {
-          var field = th.dataset.sort;
+      // La cabecera ordenable es un <button> dentro del <th>. Antes el
+      // manejador colgaba del propio <th>, que no recibe foco: ordenar la
+      // tabla era imposible sin raton. El aria-sort sigue en el <th>, que es
+      // donde lo espera la especificacion, y lo sincroniza syncSortIndicators.
+      root.querySelectorAll("[data-sort-btn]").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var field = button.dataset.sortBtn;
           if (state.sort.key === field) state.sort.dir *= -1;
           else state.sort = { key: field, dir: 1 };
-          root.querySelectorAll("[data-sort]").forEach(function (other) {
-            other.setAttribute("aria-sort", "none");
-          });
-          th.setAttribute("aria-sort", state.sort.dir === 1 ? "ascending" : "descending");
           render();
         });
       });
@@ -631,23 +781,14 @@
         });
       }
 
-      var reset = $(".js-reset");
-      if (reset) {
-        reset.addEventListener("click", function () {
-          state.filters = {};
-          state.onlyVerified = false;
-          state.onlySelected = false;
-          if (search) search.value = "";
-          root.querySelectorAll("select[data-field]").forEach(function (el) {
-            el.value = "";
-          });
-          root.querySelectorAll('[aria-pressed="true"]').forEach(function (el) {
-            if (el.classList.contains("tint-swatch")) return;
-            el.setAttribute("aria-pressed", "false");
-          });
-          render();
-        });
-      }
+      // Delegado en vez de enlazado al boton: el estado vacio pinta sus
+      // propios botones de limpiar mucho despues de que bind() haya corrido.
+      root.addEventListener("click", function (event) {
+        var target = event.target.closest ? event.target.closest(".js-reset, .js-clear-one") : null;
+        if (!target) return;
+        if (target.classList.contains("js-reset")) resetAll();
+        else clearFilter(target.dataset.clearField ? "select" : target.dataset.clear, target.dataset.clearField);
+      });
 
       root.querySelectorAll("[data-preset]").forEach(function (btn) {
         btn.addEventListener("click", function () {

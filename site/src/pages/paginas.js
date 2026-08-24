@@ -155,7 +155,7 @@ function explorerShell({ id, searchPlaceholder, selects, chips, columns, footerN
   const head = columns
     .map(
       (c) =>
-        `<th data-sort="${escapeHtml(c.field)}" aria-sort="none" scope="col" title="Ordenar por ${escapeHtml(c.label)}">${escapeHtml(c.label)}</th>`
+        `<th data-sort="${escapeHtml(c.field)}" aria-sort="none" scope="col"><button class="datatable__sort" type="button" data-sort-btn="${escapeHtml(c.field)}" title="Ordenar por ${escapeHtml(c.label)}">${escapeHtml(c.label)}<span class="datatable__dir" aria-hidden="true"></span></button></th>`
     )
     .join("");
 
@@ -181,8 +181,8 @@ ${card({
   <div class="toolbar">
     <div class="toolbar__wide search-input-wrapper">
       <label for="search-input" class="search-label">Buscar</label>
-      <input id="search-input" class="sacred-input js-search" type="search" placeholder="${escapeHtml(searchPlaceholder)}" aria-label="Buscar" autocomplete="off" />
-      <div class="js-suggestions search-suggestions" role="listbox" aria-label="Sugerencias de búsqueda" style="display: none;"></div>
+      <input id="search-input" class="sacred-input js-search" type="search" placeholder="${escapeHtml(searchPlaceholder)}" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="search-suggestions" aria-autocomplete="list" />
+      <div id="search-suggestions" class="js-suggestions search-suggestions" role="listbox" aria-label="Sugerencias de búsqueda" style="display: none;"></div>
     </div>
     <div class="filters-group">
       <span class="filter-label">Filtros</span>
@@ -197,9 +197,10 @@ ${card({
   </div>
 
   <div class="sacred-row-between" style="margin:calc(var(--theme-line-height-base) * 0.5rem) 0">
-    <span class="mono-dim"><strong class="js-count">0</strong> resultados</span>
+    <span class="mono-dim"><strong class="js-count">0</strong> resultados <span class="js-sortnote"></span></span>
     <span class="js-status loading" role="status"></span>
   </div>
+  <p class="visually-hidden js-count-live" role="status" aria-live="polite"></p>
 
   <div class="js-map" id="map" aria-hidden="true"></div>
 

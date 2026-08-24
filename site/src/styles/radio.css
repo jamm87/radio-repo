@@ -4,6 +4,17 @@
   siguen viniendo de los tokens --theme-* del sistema.
 */
 
+/*
+  Altura minima de todo control pulsable. WCAG 2.2 (2.5.8, AA) pide 24x24 px
+  de area objetivo y la rejilla del sistema daba 20 (16 px x 1.25 de linea).
+  La cabecera fija mide justo un control, asi que el thead pegajoso se ancla a
+  la misma variable y las dos cosas no se pueden desincronizar.
+*/
+:root {
+  --control-min: 24px;
+  --masthead-h: var(--control-min);
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -53,7 +64,9 @@ img, svg { max-width: 100%; }
 .masthead__links::-webkit-scrollbar { display: none; }
 
 .masthead__link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-min);
   padding: 0 1ch;
   color: var(--theme-text);
   background: transparent;
@@ -63,9 +76,30 @@ img, svg { max-width: 100%; }
 
 .masthead__link:hover,
 .masthead__link:focus { background: var(--theme-focused-foreground); color: var(--theme-text); }
+/* Un cambio de fondo no basta como indicador de foco: hace falta un contorno
+   propio que se distinga tambien del hover. */
+.masthead__link:focus-visible { outline: 2px solid var(--theme-text); outline-offset: -2px; }
 .masthead__link[aria-current="true"] { background: var(--theme-background); }
 
-.masthead__tools { display: flex; align-items: center; gap: 0; }
+/*
+  Subir las muestras de tinte a 24 px ensancha este grupo de 147 a 221 px, y a
+  360 px de ancho eso sacaba scroll horizontal a la pagina entera. Se resuelve
+  con el mismo patron que ya usan los enlaces de navegacion: el grupo scrolla
+  dentro de si mismo y el documento no se mueve.
+*/
+.masthead__tools {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  /* sacred-nav__right fija flex-shrink:0 en este mismo elemento. */
+  flex-shrink: 1;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.masthead__tools::-webkit-scrollbar { display: none; }
+.tint-swatches { flex-shrink: 0; }
 
 .toolbtn {
   font-family: var(--font-family-mono);
@@ -78,20 +112,25 @@ img, svg { max-width: 100%; }
   color: var(--theme-text);
   padding: 0 1ch;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-min);
 }
 
 .toolbtn:hover, .toolbtn:focus { background: var(--theme-focused-foreground); }
+.toolbtn:focus-visible { outline: 2px solid var(--theme-text); outline-offset: -2px; }
 
 .tint-swatches { display: inline-flex; align-items: center; }
 
 .tint-swatch {
-  width: 2ch;
-  height: calc(var(--font-size) * var(--theme-line-height-base));
+  width: var(--control-min);
+  height: var(--control-min);
   border: 0;
-  outline: 0;
   cursor: pointer;
   padding: 0;
 }
+
+.tint-swatch:focus-visible { outline: 2px solid var(--theme-text); outline-offset: -2px; }
 
 .tint-swatch[aria-pressed="true"] { box-shadow: inset 0 0 0 2px var(--theme-text); }
 
@@ -442,6 +481,18 @@ img, svg { max-width: 100%; }
   white-space: nowrap;
 }
 
+/* La casilla del sistema mide una linea de alto (20 px). Se sube al minimo
+   accesible aqui en vez de en sacred.css para no tocar el port de SRCL. */
+.sacred-checkbox__figure { min-height: var(--control-min); }
+
+.suggestion-type {
+  color: var(--theme-text-subdued);
+  font-size: 0.85em;
+  flex-shrink: 0;
+}
+
+.empty-state__actions { justify-content: center; margin-top: calc(var(--theme-line-height-base) * 0.5rem); }
+
 .js-filter-chips {
   display: flex;
   flex-wrap: wrap;
@@ -492,6 +543,9 @@ img, svg { max-width: 100%; }
   border: 0;
   cursor: pointer;
   padding: 0 1ch;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--control-min);
   background: var(--theme-button-background);
   box-shadow: inset 0 0 0 2px var(--theme-button-foreground);
   color: var(--theme-text);
@@ -539,8 +593,8 @@ img, svg { max-width: 100%; }
 
 .datatable thead th {
   position: sticky;
-  /* Justo debajo de la cabecera fija (una linea: font-size * line-height). */
-  top: calc(var(--font-size) * var(--theme-line-height-base));
+  /* Justo debajo de la cabecera fija, que mide un control de alto. */
+  top: var(--masthead-h);
   z-index: var(--z-index-page-select);
   background: var(--theme-border);
   text-transform: uppercase;
@@ -550,6 +604,31 @@ img, svg { max-width: 100%; }
 }
 
 .datatable thead th:hover { background: var(--theme-focused-foreground); }
+
+/*
+  El boton ocupa toda la celda para que el area pulsable siga siendo la misma
+  que cuando el manejador colgaba del <th>. Hereda tipografia y color para que
+  la cabecera se vea igual que antes; lo unico nuevo es que ahora recibe foco.
+*/
+.datatable__sort {
+  font: inherit;
+  color: inherit;
+  text-transform: inherit;
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: var(--control-min);
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+  text-align: left;
+  cursor: pointer;
+}
+
+.datatable__sort:focus-visible { outline: 2px solid var(--theme-text); outline-offset: -2px; }
+.datatable__dir { color: var(--theme-text); }
 .datatable tbody tr { box-shadow: inset 0 -1px 0 0 var(--theme-border-subdued); }
 .datatable tbody tr:hover { background: var(--theme-focused-foreground-subdued); }
 .datatable td.num { text-align: right; font-variant-numeric: tabular-nums; }

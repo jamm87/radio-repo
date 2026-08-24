@@ -474,6 +474,20 @@ function clienteFrecuencias() {
     label: function (d) { return d.n; },
     haystack: function (d) { return [d.n, d.c, d.b, d.z, d.m, d.e, d.notas, d.fuente, d.f].join(" "); },
     isVerified: function (d) { return d.v === 1 || d.aip; },
+    // Orden por defecto: las bandas que la gente escucha de verdad primero.
+    // Por MHz ascendente, las 36 entradas de LF/VLF y las 16 de onda media
+    // ocupaban la primera pantalla y enterraban VHF, UHF y banda aerea.
+    relevance: function (d) {
+      var order = {
+        "2 m radioafición": 0, "70 cm radioafición": 1, "Banda aérea": 2,
+        "PMR446": 3, "Marítima VHF": 4, "VHF servicios": 5, "UHF servicios": 6,
+        "23 cm radioafición": 7, "VHF alta": 8, "UHF alta": 9,
+        "VHF baja": 10, "UHF baja": 11, "HF": 12,
+        "Radiodifusión FM": 13, "Onda media": 14, "LF / VLF": 15
+      };
+      var rank = order[d.b];
+      return rank == null ? 99 : rank;
+    },
     selects: [
       { field: "c", label: "categoría: todas" },
       { field: "b", label: "banda: todas" },
@@ -533,6 +547,12 @@ function clienteRepetidores() {
     label: function (d) { return d.call; },
     haystack: function (d) { return [d.call, d.t, d.b, d.m, d.canal, d.loc, d.titular, d.estado, d.f].join(" "); },
     isVerified: function () { return true; },
+    // 144 y 432 MHz concentran casi todo el uso real de repetidores.
+    relevance: function (d) {
+      var order = { "144 MHz": 0, "432 MHz": 1, "1200 MHz": 2, "50 MHz": 3, "28 MHz": 4, "ATV": 5 };
+      var rank = order[d.b];
+      return rank == null ? 99 : rank;
+    },
     selects: [
       { field: "b", label: "banda: todas" },
       { field: "t", label: "tipo: todos" },
